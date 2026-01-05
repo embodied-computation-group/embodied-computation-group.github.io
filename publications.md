@@ -31,13 +31,21 @@ We try to include links for all of our papers. If you cannot access one of our p
         return;
       }
 
+      // Extract year from various date formats
+      function extractYear(dateStr) {
+        if (!dateStr) return 'Unknown';
+        // Try to find a 4-digit year anywhere in the string
+        const match = dateStr.match(/\b(19|20)\d{2}\b/);
+        return match ? match[0] : 'Unknown';
+      }
+
       // Group by year
       const byYear = {};
       items.forEach(item => {
         const data = item.data;
         if (data.itemType === 'attachment' || data.itemType === 'note') return;
 
-        const year = data.date ? data.date.substring(0, 4) : 'Unknown';
+        const year = extractYear(data.date);
         if (!byYear[year]) byYear[year] = [];
         byYear[year].push(data);
       });
