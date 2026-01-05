@@ -1,0 +1,9 @@
+- date: 2026-01-05
+  details: "Welcome to the new Embodied Computation Group website! We're excited to share our research on brain-body interaction."
+
+- date: 2025-12-01
+  details: "The ECG is recruiting! Check out our <a href='/join'>Join Us</a> page for current opportunities."
+
+# Add more news items here following the format:
+# - date: YYYY-MM-DD
+#   details: "Your news item here. You can include <a href='url'>links</a>."

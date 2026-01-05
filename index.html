@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class='container'>
+    <header class="masthead text-center">
+
+      <p style="text-align: justify; margin: 20px auto; max-width: 90%; line-height: 1.6;">
+      <strong>The Embodied Computation Group is a multidisciplinary research lab located at Aarhus University and Cambridge Psychiatry, led by Dr Micah Allen. Our research investigates how our decision-making, emotion, and conscious perception are shaped by visceral and embodied processes.</strong>
+      </p>
+
+      <p style="text-align: justify; margin: 20px auto; max-width: 90%; line-height: 1.6;">
+      To probe the embodied brain, we use tools like computational modelling, psychophysics, physiological measures, and advanced neuroimaging. Our work comprises both basic research into the neural mechanisms underpinning visceral inference, and clinical research seeking to apply these mechanisms to better understand populations suffering from disordered brain-body interaction and mental illness.
+      </p>
+
+      <p style="text-align: justify; margin: 20px auto; max-width: 90%; line-height: 1.6;">
+      Our work is supported by an extensive network of international collaborations, as well as generous support from the Lundbeck Foundation, Aarhus Institute of Advanced Studies, and Cambridge Psychiatry.
+      </p>
+
+      <img class='img-responsive center-block' src="/images/lab_photo.jpg" width="50%" height="50%" />
+
+      <p>
+      <i>Computational Modelling. Psychophysics. Neuroimaging.<br>
+      Visceral Inference. Brain-Body Interaction.<br>
+      Decision-Making. Emotion. Consciousness.</i>
+
+        <span style="display: block; margin-bottom: 3em"></span>
+
+      <a href="https://github.com/embodied-computation-group"><i class="fab fa-github"></i> ECG GitHub</a>&nbsp;&nbsp;&nbsp;
+      <a href="https://twitter.com/visceral_mind"><i class="fab fa-twitter"></i> @visceral_mind</a>&nbsp;&nbsp;&nbsp;
+      <a href="mailto:micah@cfin.au.dk"><i class="far fa-envelope"></i> Contact</a>
+      </p>
+
+      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
+        <div style="text-align:left">
+          <h3> Recent News </h3>
+          <u>Happenings of the last few months</u>
+          <span style="display: block; margin-bottom: 1em"></span>
+          <div class="news">
+              {% capture now %}{{'now' | date: '%s' | minus: 7776000 %}}{% endcapture %}
+              <ul style="list-style-position:outside;padding:20px" >
+                {% for new in site.data.news %}
+                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+                  {% if date > now %}
+                    <li>
+                      <span>
+                        {{ new.details }}
+                      </span>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+          </div>
+        </div >
+      </div>
+
+
+
+      <span style="display: block; margin-bottom: 3em"></span>
+
+
+      <a class="twitter-timeline" href="https://twitter.com/visceral_mind" data-widget-id="695051708246941697">Tweets by @visceral_mind</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      <span style="display: block; margin-bottom: 3em"></span>
+      Department of Clinical Medicine, Aarhus University<br>
+      Aarhus, Denmark
+      <span style="display: block; margin-bottom: 3em"></span>
+
+    </header>
+</div>

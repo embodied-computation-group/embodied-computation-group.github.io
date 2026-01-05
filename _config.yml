@@ -1,0 +1,71 @@
+# # # # # # # # # # # #
+#   E C G   L a b     #
+# # # # # # # # # # # #
+
+# Basic
+name:               "Embodied Computation Group"
+title:              "Embodied Computation Group"
+description:        "The Embodied Computation Group is a multidisciplinary research lab at Aarhus University investigating how decision-making, emotion, and conscious perception are shaped by visceral and embodied processes."
+
+
+# URL
+url:                ""
+baseurl:
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "about"
+    href:           "/about"
+  - name:           "research"
+    href:           "/research"
+  - name:           "publications"
+    href:           "/publication"
+  - name:           "people"
+    href:           "/people"
+  - name:           "join us"
+    href:           "/join"
+  - name:           "resources"
+    href:           "/resources"
+  - name:           "blog"
+    href:           "/blog"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile"
+
+
+collections:
+  people:
+    output: true
+    permalink: /people/:title/index.html
