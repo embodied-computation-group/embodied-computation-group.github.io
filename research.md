@@ -31,7 +31,11 @@ We develop and test computational models that formalize how the brain integrates
 
 ### Emotion & Affect
 
+<img src="/images/others/body_emotion.PNG" alt="Emotion & Affect" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
+
 Emotions are fundamentally embodied experiences. We investigate how bodily states contribute to emotional experience and how disruptions in brain-body interaction may contribute to affective disorders such as anxiety and depression.
+
+<div style="clear: both;"></div>
 
 ---
 
