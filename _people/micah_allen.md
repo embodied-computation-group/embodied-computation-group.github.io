@@ -1,7 +1,7 @@
 ---
 name: Micah Allen
 position: pi
-avatar: micah_allen.jpg
+avatar: micahallen01.JPG
 twitter: visceral_mind
 joined: 2018
 ---
