@@ -54,3 +54,9 @@ New blog post: Create `_posts/YYYY-MM-DD-title.md` with frontmatter
 New publication: Edit `publications.md` directly
 
 New news item: Add entry to `_data/news.yml`
+
+## Important Rules
+
+- NEVER add Claude Code attribution or "Generated with Claude Code" to commit messages or code
+- NEVER add "Co-Authored-By: Claude" or similar attribution lines
+- Keep commit messages clean and conventional without AI attribution footers
