@@ -510,9 +510,18 @@ tbody tr:nth-child(odd) th {
 }
 
 .navbar-brand {
-  //font-weight: bold;
   font-size: 20px;
   font-weight: 300;
+}
+
+.navbar-brand img {
+  margin: 0;
+  border-radius: 0;
+}
+
+// Add space below brand to prevent nav overlap
+.navbar-header {
+  padding-bottom: 5px;
 }
 
 // change font for navbar
