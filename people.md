@@ -58,6 +58,8 @@ The Embodied Computation Group is a multidisciplinary team bringing together exp
 
 {% else %}
 
+{% assign alumni_sorted = people_sorted | where: 'position', 'alumni' | sort: 'joined' | reverse %}
+
 <table>
   <thead>
     <tr>
@@ -67,14 +69,12 @@ The Embodied Computation Group is a multidisciplinary team bringing together exp
     </tr>
   </thead>
   <tbody>
-  {% for profile in people_sorted %}
-    {% if profile.position contains role %}
+  {% for profile in alumni_sorted %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
       <td>{{ profile.role }} ({{ profile.joined }})</td>
       <td>{{ profile.current }}</td>
     </tr>
-    {% endif %}
   {% endfor %}
   </tbody>
 </table>
