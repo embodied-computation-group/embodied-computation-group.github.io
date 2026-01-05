@@ -22,5 +22,5 @@ Dr. Micah Allen leads the Embodied Computation Group, investigating how visceral
 
 The lab's work spans basic research into the neural mechanisms underpinning visceral inference, and clinical research seeking to apply these mechanisms to better understand populations suffering from disordered brain-body interaction and mental illness.
 
-[Google Scholar](https://scholar.google.com/citations?user=PLACEHOLDER) |
+[Google Scholar](https://scholar.google.com/citations?user=C49AeHAAAAAJ&hl=en) |
 [Twitter](https://twitter.com/visceral_mind)
