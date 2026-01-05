@@ -3,28 +3,99 @@ title: Publications
 permalink: /publication/
 ---
 
-For a complete list, see Dr. Micah Allen's [Google Scholar profile](https://scholar.google.com).
+For a complete list, see Dr. Micah Allen's [Google Scholar profile](https://scholar.google.com/citations?user=C49AeHAAAAAJ&hl=en).
 
 We try to include links for all of our papers. If you cannot access one of our papers, please let us know.
 
 <hr>
 
-### Selected Publications
+<div id="publications-loading">Loading publications from Zotero...</div>
+<div id="publications-error" style="display:none; color: red;"></div>
+<div id="publications-list"></div>
 
-Publications from the Embodied Computation Group will be listed here.
+<script>
+(function() {
+  const ZOTERO_USER_ID = '5500260';
+  const API_URL = `https://api.zotero.org/users/${ZOTERO_USER_ID}/publications/items?format=json&sort=date&direction=desc&limit=100`;
 
-<!--
-Add publications in the following format:
+  fetch(API_URL)
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to fetch publications');
+      return response.json();
+    })
+    .then(items => {
+      document.getElementById('publications-loading').style.display = 'none';
 
-_Title of Paper_<br>
-Authors<br>
-Journal Name, Year ([Article](link))
+      if (items.length === 0) {
+        document.getElementById('publications-list').innerHTML = '<p>No publications found.</p>';
+        return;
+      }
 
--->
+      // Group by year
+      const byYear = {};
+      items.forEach(item => {
+        const data = item.data;
+        if (data.itemType === 'attachment' || data.itemType === 'note') return;
 
-### Preprints
+        const year = data.date ? data.date.substring(0, 4) : 'Unknown';
+        if (!byYear[year]) byYear[year] = [];
+        byYear[year].push(data);
+      });
 
-Preprints and working papers will be listed here.
+      // Sort years descending
+      const years = Object.keys(byYear).sort((a, b) => b.localeCompare(a));
+
+      let html = '';
+      years.forEach(year => {
+        html += `<h3>${year}</h3>\n`;
+        byYear[year].forEach(pub => {
+          // Format authors
+          let authors = '';
+          if (pub.creators && pub.creators.length > 0) {
+            authors = pub.creators
+              .filter(c => c.creatorType === 'author')
+              .map(c => c.lastName ? `${c.lastName}, ${c.firstName ? c.firstName.charAt(0) + '.' : ''}` : c.name)
+              .join(', ');
+          }
+
+          // Format title with link if available
+          let title = pub.title || 'Untitled';
+          if (pub.url) {
+            title = `<a href="${pub.url}" target="_blank">${title}</a>`;
+          } else if (pub.DOI) {
+            title = `<a href="https://doi.org/${pub.DOI}" target="_blank">${title}</a>`;
+          }
+
+          // Format publication info
+          let venue = '';
+          if (pub.publicationTitle) venue = pub.publicationTitle;
+          else if (pub.journalAbbreviation) venue = pub.journalAbbreviation;
+          else if (pub.proceedingsTitle) venue = pub.proceedingsTitle;
+          else if (pub.bookTitle) venue = pub.bookTitle;
+
+          let details = [];
+          if (venue) details.push(`<em>${venue}</em>`);
+          if (pub.volume) details.push(`${pub.volume}${pub.issue ? '(' + pub.issue + ')' : ''}`);
+          if (pub.pages) details.push(pub.pages);
+
+          html += `<p style="margin-bottom: 1em;">`;
+          html += `<strong>${title}</strong><br>`;
+          if (authors) html += `${authors}<br>`;
+          if (details.length > 0) html += `${details.join(', ')}`;
+          html += `</p>\n`;
+        });
+      });
+
+      document.getElementById('publications-list').innerHTML = html;
+    })
+    .catch(error => {
+      document.getElementById('publications-loading').style.display = 'none';
+      document.getElementById('publications-error').style.display = 'block';
+      document.getElementById('publications-error').textContent = 'Error loading publications: ' + error.message;
+      console.error('Zotero API error:', error);
+    });
+})();
+</script>
 
 <hr>
 
