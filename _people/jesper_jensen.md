@@ -3,6 +3,8 @@ name: Jesper Meyhoff Jensen
 position: alumni
 avatar: default_avatar.jpg
 joined: 2011
+role: Master's Student
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

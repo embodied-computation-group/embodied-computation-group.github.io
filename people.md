@@ -60,9 +60,13 @@ The Embodied Computation Group is a multidisciplinary team bringing together exp
 
 <br>
 
-| Name | Position | Years | Current Position |
-| :--- | :--- | :--- | :--- |
-| Example Alumni | PhD Student | 2018-2022 | Postdoc at Example University |
+| Who are they | When were they here | Where they went |
+| :--- | :--- | :--- |
+{% for profile in people_sorted %}
+{% if profile.position contains role %}
+| <a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a> | {{ profile.role }} ({{ profile.joined }}) | {{ profile.current }} |
+{% endif %}
+{% endfor %}
 
 {% endif %}
 {% endfor %}

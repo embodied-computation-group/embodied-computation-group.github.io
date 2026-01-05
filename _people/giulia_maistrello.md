@@ -3,6 +3,8 @@ name: Giulia Maistrello
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
+role: Research Assistant, Cambridge Psychiatry
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

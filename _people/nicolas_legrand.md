@@ -3,6 +3,8 @@ name: Nicolas Legrand
 position: alumni
 avatar: default_avatar.jpg
 joined: 2019
+role: Postdoctoral Fellow
+current: Postdoc at Chris Mathy's lab, Interacting Minds Center
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

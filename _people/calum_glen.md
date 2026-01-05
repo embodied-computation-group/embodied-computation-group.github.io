@@ -3,6 +3,8 @@ name: Calum Glen
 position: alumni
 avatar: default_avatar.jpg
 joined: 2015
+role: Research Assistant
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

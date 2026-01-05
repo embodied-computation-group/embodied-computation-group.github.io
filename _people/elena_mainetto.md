@@ -3,6 +3,8 @@ name: Elena Mainetto
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
+role: Research Assistant, Cambridge Psychiatry
+current: PhD at the Donders Institute
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

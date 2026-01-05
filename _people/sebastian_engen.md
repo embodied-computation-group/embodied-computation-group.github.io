@@ -3,6 +3,8 @@ name: Sebastian Scott Engen
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
+role: Bachelor's Student
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

@@ -3,6 +3,8 @@ name: Thomas Schaffhauser
 position: alumni
 avatar: default_avatar.jpg
 joined: 2016
+role: Master's Student
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

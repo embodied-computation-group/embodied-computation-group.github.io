@@ -3,6 +3,8 @@ name: Laura Huizinga
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
+role: Visiting Master's Student
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

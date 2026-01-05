@@ -3,6 +3,8 @@ name: Anna Stuckert
 position: alumni
 avatar: default_avatar.jpg
 joined: 2019
+role: Bachelor's Student
+current:
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
