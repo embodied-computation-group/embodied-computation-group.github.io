@@ -58,15 +58,26 @@ The Embodied Computation Group is a multidisciplinary team bringing together exp
 
 {% else %}
 
-<br>
-
-| Who are they | When were they here | Where they went |
-| :--- | :--- | :--- |
-{% for profile in people_sorted %}
-{% if profile.position contains role %}
-| <a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a> | {{ profile.role }} ({{ profile.joined }}) | {{ profile.current }} |
-{% endif %}
-{% endfor %}
+<table>
+  <thead>
+    <tr>
+      <th>Who are they</th>
+      <th>When were they here</th>
+      <th>Where they went</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for profile in people_sorted %}
+    {% if profile.position contains role %}
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
+      <td>{{ profile.role }} ({{ profile.joined }})</td>
+      <td>{{ profile.current }}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
 
 {% endif %}
 {% endfor %}
