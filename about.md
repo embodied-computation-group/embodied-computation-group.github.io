@@ -26,9 +26,14 @@ Our work spans two interconnected domains:
 
 **Clinical Research**: We apply our understanding of brain-body interaction to better understand populations suffering from disordered interoception and mental illness, with the goal of developing new interventions.
 
-### Support & Collaborations
+### Partner Institutions
 
-Our work is supported by an extensive network of international collaborations, as well as generous funding from:
+- **Aarhus University** - Department of Clinical Medicine
+- **Cambridge Psychiatry** - University of Cambridge
+
+### Funding
+
+Our research is generously supported by:
 
 - Lundbeck Foundation
 - Aarhus Institute of Advanced Studies

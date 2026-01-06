@@ -97,23 +97,6 @@ A data visualization method combining raw data, probability density, and summary
 
 ---
 
-## Collaborations
-
-### Partner Institutions
-
-- **Aarhus University** - Department of Clinical Medicine
-- **Cambridge Psychiatry** - University of Cambridge
-
-### Funding
-
-Our research is generously supported by:
-
-- Lundbeck Foundation
-- Aarhus Institute of Advanced Studies
-- Cambridge Psychiatry
-
----
-
 ## Contact
 
 For questions about our tools and resources:
