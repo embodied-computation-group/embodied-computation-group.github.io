@@ -3,8 +3,9 @@ name: Camile Correa
 position: alumni
 avatar: default_avatar.jpg
 joined: 2019
-role: Postdoctoral Fellow
-current:
+left: 2021
+former_role: Postdoctoral Fellow
+current_position: Senior Product Experience Researcher, Arla
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
