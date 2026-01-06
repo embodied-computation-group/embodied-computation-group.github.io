@@ -3,31 +3,76 @@ title: Resources
 permalink: /resources/
 ---
 
-## Open Source Software & Tools
+## Open Science Commitment
 
-### Computational Modelling
+**100% of our publications include a GitHub repository** containing full data, code, experimental tasks, stimuli, and analysis pipelines. We believe reproducible science requires transparent sharing of all research materials.
 
-We develop and share computational tools for studying brain-body interaction:
+Browse all our repositories at our [GitHub Organization](https://github.com/embodied-computation-group).
 
-- Check our [GitHub Organization](https://github.com/embodied-computation-group) for code and analysis pipelines
+---
 
-### Data & Analysis
+## Open Source Software
 
-- Neuroimaging analysis tools
-- Psychophysics paradigms
-- Physiological signal processing
+### Systole
 
-## Educational Resources
+<a href="https://github.com/embodied-computation-group/systole"><i class="fab fa-github"></i> GitHub</a>
 
-### Courses & Tutorials
+A Python package for cardiac signal analysis in psychophysiology research. Systole provides comprehensive tools for:
 
-Links to relevant courses and tutorials will be added here.
+- **Signal Processing**: Pre-processing, visualization, and artefact detection/correction for cardiac data
+- **Heart Rate Variability**: Time-domain, frequency-domain, and non-linear HRV indices
+- **Peak Detection**: Automated R-peak detection using the Pan-Tompkins method with interactive correction
+- **Experimental Integration**: Synchronization of stimulus presentation with cardiac phases via PsychoPy
 
-### Methods Papers
+Features BIDS-format compatibility, native hardware integration with Nonin pulse oximeters and BrainVision amplifiers, and web-based viewers for annotating cardiac data.
 
-Key methodological publications from our lab:
+---
 
-- Check our [Publications](/publication) page for recent methods papers
+### Cardioception
+
+<a href="https://github.com/embodied-computation-group/Cardioception"><i class="fab fa-github"></i> GitHub</a>
+
+A Python package implementing validated psychophysical tasks for measuring cardiac interoception—how accurately people perceive their own heartbeats. Includes:
+
+- **Heartbeat Counting Task**: Participants count heartbeats during timed intervals for accuracy assessment
+- **Heart Rate Discrimination Task**: Adaptive psychophysical procedure measuring accuracy and precision of interoceptive beliefs using auditory feedback
+
+Designed for minimal hardware requirements (computer + pulse oximeter), with flexible integration for ECG, M/EEG, and fMRI setups. Includes R-based hierarchical Bayesian modeling tools for analysis.
+
+---
+
+## Methods & Analysis Tools
+
+### Hierarchical Interoception Toolkit
+
+<a href="https://github.com/embodied-computation-group/Hierarchical-Interoception"><i class="fab fa-github"></i> GitHub</a>
+
+Hierarchical Bayesian psychometric function models for analyzing interoceptive psychophysics data. This toolkit provides:
+
+- Statistical modeling using Stan and BRMS for the Heart Rate Discrimination Task (HRDT) and Respiratory Resistance Sensitivity Task (RRST)
+- Parameter and model recovery validation analyses
+- Normative priors derived from large datasets
+- Power analysis tools for study planning
+- Interactive Shiny app for exploring power across design choices
+
+Includes comprehensive R Markdown workflows demonstrating data simulation, model specification, fitting, diagnostics, and visualization.
+
+---
+
+### Respiratory Resistance Sensitivity Task (RRST)
+
+<a href="https://github.com/embodied-computation-group/RespiroceptionMethodsPaper"><i class="fab fa-github"></i> GitHub</a>
+
+An automated method for measuring respiratory interoception using a fully 3D-printable apparatus. Key features:
+
+- **Psychophysical Assessment**: Forced-choice discrimination task comparing breaths with varying airway obstruction
+- **Efficient Measurement**: Bayesian staircase procedure (Psi) achieves threshold convergence in 20-50 trials
+- **Metacognitive Assessment**: Evaluates confidence in perceptual judgments
+- **Accessible Design**: 3D-printable components eliminate need for expensive medical equipment
+
+High test-retest reliability with minimal participant discomfort, completing full assessment in 30-45 minutes.
+
+---
 
 ## Collaborations
 
@@ -44,37 +89,12 @@ Our research is generously supported by:
 - Aarhus Institute of Advanced Studies
 - Cambridge Psychiatry
 
-## For Researchers
-
-### Getting Started
-
-If you're interested in using our methods or data:
-
-1. Visit our [GitHub](https://github.com/embodied-computation-group) for available code
-2. Check our publications for detailed methods
-3. Contact us for collaboration opportunities
-
-### Contributing
-
-- We welcome collaboration and contributions
-- Contact Dr. Micah Allen at micah@cfin.au.dk
-
-## For Students
-
-### Learning Resources
-
-Resources for students interested in embodied cognition and computational neuroscience:
-
-- Computational modelling tutorials (coming soon)
-- Neuroimaging analysis guides (coming soon)
-- Psychophysics paradigms (coming soon)
+---
 
 ## Contact
 
-For questions about specific resources:
+For questions about our tools and resources:
 
 - **General inquiries:** [micah@cfin.au.dk](mailto:micah@cfin.au.dk)
+- **Bluesky:** [@the-ecg.org](https://bsky.app/profile/the-ecg.org)
 - **Twitter:** [@visceral_mind](https://twitter.com/visceral_mind)
-
----
-*Last updated: {{ site.time | date: '%B %Y' }}*
