@@ -3,8 +3,9 @@ name: Sofie Rødkjær Blendstrup
 position: alumni
 avatar: default_avatar.jpg
 joined: 2021
-role: Research Assistant
-current:
+left: 2022
+former_role: Research Assistant
+current_position: Consultant, Norlys
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

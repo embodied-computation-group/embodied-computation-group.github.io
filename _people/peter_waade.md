@@ -3,8 +3,9 @@ name: Peter Waade
 position: alumni
 avatar: default_avatar.jpg
 joined: 2020
-role: Master's Student
-current:
+left: 2021
+former_role: Master's Student
+current_position: Postdoc, ETH Zurich
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
