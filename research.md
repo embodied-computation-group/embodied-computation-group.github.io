@@ -9,6 +9,18 @@ The Embodied Computation Group investigates how visceral and embodied processes 
 
 ---
 
+### Methods
+
+Our research employs a diverse methodological toolkit:
+
+- **Computational Modelling**: Bayesian inference, predictive coding, network models
+- **Neuroimaging**: fMRI, MEG/EEG, computational models of neural dynamics and brain-body dynamics
+- **Psychophysics**: Signal detection theory, threshold measurement, metacognition
+- **Interoception**: Specialized methods for measuring interoception in the respiratory, gastric, and cardiac domains
+- **Physiology**: ECG, respiration, electrogastrography (EGG), pupillometry, skin conductance
+
+---
+
 ### Visceral Inference & Interoception
 
 <img src="/images/others/intero_1_crop.png" alt="Visceral Inference & Interoception" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
@@ -66,18 +78,6 @@ Developing causal manipulations of neurovisceral connections and visceral affere
 We bring together our models, manipulations, and measures to map, understand, phenotype, and ultimately intervene upon disorders of mood, affect, and brain-body interaction. This work is particularly focused on interoception as a bridge between somatic and psychiatric illnesses and their strong comorbidities. For example, patients with psychiatric illnesses are more than twice as likely to die from cancer and cardiometabolic disease, and suffer substantially worse outcomes and delays in their journey through the healthcare system. We believe interoception plays a key role in this and are actively applying our research to help patients from both sides achieve better outcomes.
 
 <div style="clear: both;"></div>
-
----
-
-### Methods
-
-Our research employs a diverse methodological toolkit:
-
-- **Computational Modelling**: Bayesian inference, predictive coding, network models
-- **Neuroimaging**: fMRI, MEG/EEG, computational models of neural dynamics and brain-body dynamics
-- **Psychophysics**: Signal detection theory, threshold measurement, metacognition
-- **Interoception**: Specialized methods for measuring interoception in the respiratory, gastric, and cardiac domains
-- **Physiology**: ECG, respiration, electrogastrography (EGG), pupillometry, skin conductance
 
 ---
 
