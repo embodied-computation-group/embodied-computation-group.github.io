@@ -15,6 +15,8 @@ Dr. Banellis is interested in brain-body interactions involved in psychiatric sy
 
 For her PhD, she researched brain-heart interactions in healthy cognition and patients with disorders of consciousness, supervised by Dr. Damian Cruse at the University of Birmingham. Also with Dr. Cruse she completed her MSc in Brain Imaging and Cognitive Neuroscience, researching electrophysiological markers of conscious speech processing. She obtained her undergraduate degree in Psychology with Human Biology at Plymouth University, with her BSc project on embodiment and meditation with Prof. Susan Blackmore.
 
+In 2025, Leah received a Lundbeckfonden Postdoctoral Fellowship, which will take her to Dani Bassett's lab at Yale University and enable her to expand her work into models of multi-organ brain-body interaction and neural stimulation through collaborations at Copenhagen University and the ECG.
+
 Leah has presented workshops on gastric-brain interaction and mental health at [WAVES 2024](https://waves-conference.com/waves24/), ICON 2025, and ASSC 2025.
 
 <a href="https://www.youtube.com/watch?v=bCWukBOfzBo"><i class="fab fa-youtube"></i> Watch Leah's lecture on gastric-brain coupling</a>
