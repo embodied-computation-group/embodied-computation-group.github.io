@@ -61,7 +61,11 @@ Developing causal manipulations of neurovisceral connections and visceral affere
 
 ### Clinical Applications & Computational Psychiatry
 
+<img src="/images/others/comp_psychiatry.png" alt="Clinical Applications & Computational Psychiatry" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
+
 We bring together our models, manipulations, and measures to map, understand, phenotype, and ultimately intervene upon disorders of mood, affect, and brain-body interaction. This work is particularly focused on interoception as a bridge between somatic and psychiatric illnesses and their strong comorbidities. For example, patients with psychiatric illnesses are more than twice as likely to die from cancer and cardiometabolic disease, and suffer substantially worse outcomes and delays in their journey through the healthcare system. We believe interoception plays a key role in this and are actively applying our research to help patients from both sides achieve better outcomes.
+
+<div style="clear: both;"></div>
 
 ---
 
