@@ -11,13 +11,13 @@ The Embodied Computation Group investigates how visceral and embodied processes 
 
 ### Methods
 
-Our research employs a diverse methodological toolkit:
+Our research uses an integrated set of methods spanning computation, brain imaging, and physiology:
 
-- **Computational Modelling**: Bayesian inference, predictive coding, network models
-- **Neuroimaging**: fMRI, MEG/EEG, computational models of neural dynamics and brain-body dynamics
-- **Psychophysics**: Signal detection theory, threshold measurement, metacognition
-- **Interoception**: Specialized methods for measuring interoception in the respiratory, gastric, and cardiac domains
-- **Physiology**: ECG, respiration, electrogastrography (EGG), pupillometry, skin conductance
+- **Computational modelling**: Bayesian inference, predictive coding, and network models
+- **Neuroimaging**: fMRI and MEG/EEG, with computational models of neural and brain–body dynamics
+- **Psychophysics**: Signal detection theory, threshold estimation, and metacognitive measures
+- **Interoception**: Domain-specific methods targeting cardiac, respiratory, and gastric signals
+- **Physiology**: ECG, respiratory measures, electrogastrography (EGG), pupillometry, and skin conductance
 
 ---
 
