@@ -3,8 +3,9 @@ name: Anna Stuckert
 position: alumni
 avatar: default_avatar.jpg
 joined: 2019
-role: Bachelor's Student
-current:
+left: 2020
+former_role: Bachelor's Student
+current_position: PhD Student, School of Psychology and Neuroscience, University of St Andrews
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
