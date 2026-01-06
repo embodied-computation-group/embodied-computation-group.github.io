@@ -72,8 +72,8 @@ The Embodied Computation Group is a multidisciplinary team bringing together exp
   {% for profile in alumni_sorted %}
     <tr>
       <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
-      <td>{{ profile.role }} ({{ profile.joined }})</td>
-      <td>{{ profile.current }}</td>
+      <td>{{ profile.former_role }} ({{ profile.joined }}-{{ profile.left }})</td>
+      <td>{{ profile.current_position }}</td>
     </tr>
   {% endfor %}
   </tbody>

@@ -4,6 +4,8 @@ position: alumni
 avatar: niia_nikolova.jpeg
 joined: 2019
 left: 2022
+former_role: Postdoctoral Fellow
+current_position: Senior Data Scientist, Danish National Library
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
