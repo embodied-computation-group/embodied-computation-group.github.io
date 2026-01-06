@@ -1,7 +1,7 @@
 ---
 name: Daniel Gramm Christensen
 position: inactive
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2011
 role: Research Assistant
 current:

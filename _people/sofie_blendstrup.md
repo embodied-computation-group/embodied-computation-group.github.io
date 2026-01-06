@@ -1,7 +1,7 @@
 ---
 name: Sofie Rødkjær Blendstrup
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2021
 left: 2022
 former_role: Research Assistant

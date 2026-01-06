@@ -1,7 +1,7 @@
 ---
 name: Nicolas Legrand
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2019
 left: 2022
 former_role: Postdoctoral Fellow

@@ -1,7 +1,7 @@
 ---
 name: Darya Frank
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2015
 left: 2016
 former_role: Master's Student

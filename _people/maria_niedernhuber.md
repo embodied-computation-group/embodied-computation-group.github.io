@@ -1,7 +1,7 @@
 ---
 name: Maria Niedernhuber
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2017
 left: 2020
 former_role: Co-supervised PhD Student, Cambridge

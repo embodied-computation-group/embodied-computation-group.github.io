@@ -1,7 +1,7 @@
 ---
 name: Lena Hansen
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2019
 left: 2020
 former_role: Bachelor's Student

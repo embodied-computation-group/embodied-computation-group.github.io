@@ -1,7 +1,7 @@
 ---
 name: Nanna Kildahl Mathiasen
 position: alumni
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2019
 left: 2021
 former_role: Master's Student & Research Assistant

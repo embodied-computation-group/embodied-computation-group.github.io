@@ -1,7 +1,7 @@
 ---
 name: Calum Glen
 position: inactive
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2015
 role: Research Assistant
 current:

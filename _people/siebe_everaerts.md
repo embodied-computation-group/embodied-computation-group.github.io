@@ -1,7 +1,7 @@
 ---
 name: Siebe Everaerts
 position: visiting
-avatar: SiebeEveraerts_photo.png
+avatar: default_avatar.png
 joined: 2025
 ---
 

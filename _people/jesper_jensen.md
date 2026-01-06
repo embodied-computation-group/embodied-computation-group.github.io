@@ -1,7 +1,7 @@
 ---
 name: Jesper Meyhoff Jensen
 position: inactive
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2011
 role: Master's Student
 current:

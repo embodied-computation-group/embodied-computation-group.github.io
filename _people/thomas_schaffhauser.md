@@ -1,7 +1,7 @@
 ---
 name: Thomas Schaffhauser
 position: inactive
-avatar: default_avatar.jpg
+avatar: default_avatar.png
 joined: 2016
 role: Master's Student
 current:
