@@ -41,7 +41,11 @@ Emotions are fundamentally embodied experiences. We investigate how bodily state
 
 ### Consciousness, Perception, and Metacognition
 
+<img src="/images/others/metacog_research_crop.png" alt="Consciousness, Perception, and Metacognition" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
+
 How do we form confidence in our decisions and perceptions? Our work spans perceptual and value-based decision making to understand how we form confidence representations and the computational principles underlying metacognition. We develop new computational models of metacognition across cognitive, perceptual, and interoceptive domains. A key focus is understanding how these processes interact with brain-body dynamics and interoception, including how cardiac and respiratory cycles modulate conscious perception and awareness.
+
+<div style="clear: both;"></div>
 
 ---
 
