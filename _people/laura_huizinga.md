@@ -3,8 +3,9 @@ name: Laura Huizinga
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
-role: Visiting Master's Student
-current:
+left: 2019
+former_role: Bachelor's Student
+current_position: PhD Candidate, Amsterdam University Medical Center
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
