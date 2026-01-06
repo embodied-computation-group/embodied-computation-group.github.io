@@ -1,7 +1,7 @@
 ---
 name: Leah Banellis
 position: postdoc
-avatar: leah_banellis.jpg
+avatar: leah_photo.png
 joined: 2020
 ---
 

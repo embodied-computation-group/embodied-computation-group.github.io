@@ -1,7 +1,7 @@
 ---
 name: Alexandrina Vasilichi
 position: gradstudent
-avatar: alexandrina_vasilichi.jpg
+avatar: alex_vasilichi.jpeg
 joined: 2020
 ---
 

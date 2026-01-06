@@ -1,7 +1,7 @@
 ---
 name: Arthur Courtin
 position: postdoc
-avatar: arthur_courtin.jpg
+avatar: ArthurCourtin_photo.png
 joined: 2022
 ---
 

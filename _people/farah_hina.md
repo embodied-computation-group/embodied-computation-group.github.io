@@ -1,7 +1,7 @@
 ---
 name: Farah Hina
 position: gradstudent
-avatar: farah_hina.jpeg
+avatar: farah_photo.jpeg
 joined: 2020
 ---
 
