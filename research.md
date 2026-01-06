@@ -51,7 +51,11 @@ How do we form confidence in our decisions and perceptions? Our work spans perce
 
 ### Causal Interventions in Interoception
 
+<img src="/images/others/intervention_crop.png" alt="Causal Interventions in Interoception" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
+
 Developing causal manipulations of neurovisceral connections and visceral afferents is essential to understand and disentangle the intricate web of brain-body connections that govern emotion, consciousness, and mental health. In this work, we develop pharmacological, behavioral, and lifestyle interventions, as well as emerging neural stimulation techniques including vagal nerve stimulation and ultrasound stimulation, to causally perturb specific neural and visceral foci and understand their role in interoception and beyond.
+
+<div style="clear: both;"></div>
 
 ---
 
