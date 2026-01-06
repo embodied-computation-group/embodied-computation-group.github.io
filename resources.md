@@ -3,13 +3,6 @@ title: Resources
 permalink: /resources/
 ---
 
-| Software | Methods | About |
-|----------|---------|-------|
-| [Systole](#systole) | [Hierarchical Interoception](#hierarchical-interoception-toolkit) | [Collaborations](#collaborations) |
-| [Cardioception](#cardioception) | [RRST](#respiratory-resistance-sensitivity-task-rrst) | [Contact](#contact) |
-
----
-
 ## Open Science Commitment
 
 **100% of our publications include a GitHub repository** containing full data, code, experimental tasks, stimuli, and analysis pipelines. We believe reproducible science requires transparent sharing of all research materials.
@@ -19,6 +12,15 @@ Browse all our repositories at our [GitHub Organization](https://github.com/embo
 ---
 
 ## Open Source Software
+
+| Repository | Description |
+|------------|-------------|
+| [Systole](#systole) | Cardiac signal analysis for psychophysiology |
+| [Cardioception](#cardioception) | Cardiac interoception measurement tasks |
+| [Hierarchical Interoception](#hierarchical-interoception-toolkit) | Bayesian analysis for interoceptive psychophysics |
+| [RRST](#respiratory-resistance-sensitivity-task-rrst) | Respiratory interoception measurement |
+
+---
 
 ### Systole
 
@@ -47,8 +49,6 @@ A Python package implementing validated psychophysical tasks for measuring cardi
 Designed for minimal hardware requirements (computer + pulse oximeter), with flexible integration for ECG, M/EEG, and fMRI setups. Includes R-based hierarchical Bayesian modeling tools for analysis.
 
 ---
-
-## Methods & Analysis Tools
 
 ### Hierarchical Interoception Toolkit
 
