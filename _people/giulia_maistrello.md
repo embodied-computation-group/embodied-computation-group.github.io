@@ -3,8 +3,9 @@ name: Giulia Maistrello
 position: alumni
 avatar: default_avatar.jpg
 joined: 2018
-role: Research Assistant, Cambridge Psychiatry
-current:
+left: 2019
+former_role: Research Assistant, Cambridge Psychiatry
+current_position: Senior Analyst, RAND Europe
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
