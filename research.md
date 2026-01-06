@@ -39,9 +39,9 @@ Emotions are fundamentally embodied experiences. We investigate how bodily state
 
 ---
 
-### Consciousness & Perception
+### Consciousness, Perception, and Metacognition
 
-How do bodily signals influence conscious awareness? Our work explores the relationship between interoceptive processing and conscious perception, including how cardiac and respiratory cycles modulate what we see and experience.
+How do bodily signals influence conscious awareness? Our work explores the relationship between interoceptive processing and conscious perception, including how cardiac and respiratory cycles modulate what we see and experience. Metacognition is a core focus of our research, including the development of new computational models of metacognition across cognitive, perceptual, and interoceptive domains.
 
 ---
 
