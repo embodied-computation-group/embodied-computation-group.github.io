@@ -2,7 +2,7 @@
 name: Ashley Tyrer
 position: postdoc
 avatar: ashleytyrer_photo.jpg
-twitter: @AshleyTyrer
+twitter: AshleyTyrer
 joined: 2022
 ---
 
