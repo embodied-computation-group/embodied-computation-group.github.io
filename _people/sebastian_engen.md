@@ -2,8 +2,8 @@
 name: Sebastian Scott Engen
 position: alumni
 avatar: default_avatar.jpg
-joined: 2018
-left: 2019
+joined: 2019
+left: 2020
 former_role: Bachelor's Student
 current_position: Master's Student, Cognitive Science, AU
 ---
