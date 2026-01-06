@@ -31,6 +31,23 @@ Our work spans two interconnected domains:
 - **Aarhus University** - Department of Clinical Medicine
 - **Cambridge Psychiatry** - University of Cambridge
 
+### Key Collaborators
+
+| Name | Institution | Research Focus |
+|------|-------------|----------------|
+| [Karl Friston](https://www.fil.ion.ucl.ac.uk/~karl/) | UCL | Free energy principle, active inference, and brain imaging |
+| [Peter Dayan](https://www.mpg.de/12309370/biological-cybernetics-dayan) | MPI Biological Cybernetics | Decision-making, neuromodulators, and theoretical neuroscience |
+| [Stephen Fleming](https://metacoglab.org/people) | UCL | Metacognition and conscious awareness |
+| [Tobias Hauser](https://devcompsy.org/) | University of Tübingen | Developmental computational psychiatry, OCD, and ADHD |
+| [Paul Fletcher](https://neuroscience.cam.ac.uk/member/pcf22/) | Cambridge | Computational psychiatry, psychosis, and eating behavior |
+| [Daniel Kluger](https://www.medizin.uni-muenster.de/biomag/forschung/ag-d-kluger.html) | Universität Münster | Body-brain interactions and respiration-linked perception |
+| [Sahib Khalsa](https://www.uclahealth.org/providers/sahib-khalsa) | UCLA | Interoception and anxiety disorders |
+| [Olga Pollatos](https://www.uni-ulm.de/en/in/psy-ges/team/olga-pollatos/) | Ulm University | Interoception, health psychology, and embodied cognition |
+| [Ignacio Rebollo](https://www.ignaciorebollo.com/) | German Institute of Human Nutrition | Gut-brain interactions and visceral signals |
+| [Tricia Seow](http://seowxft.github.io/) | UCL | Metacognition and computational psychiatry |
+| [Per Hove Thomsen](https://pure.au.dk/portal/da/persons/per.hove.thomsen%40clin.au.dk/) | Aarhus University | Child psychiatry and OCD |
+| [Karen Kallesøe](https://pure.au.dk/portal/da/persons/karen.kallesoe%40clin.au.dk/) | Aarhus University | Functional somatic disorders and iCBT |
+
 ### Funding
 
 Our research is generously supported by:
