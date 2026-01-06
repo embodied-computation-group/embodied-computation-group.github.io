@@ -55,8 +55,8 @@ We translate our basic research findings to understand clinical populations suff
 
 Our research employs a diverse methodological toolkit:
 
-- **Computational Modelling**: Bayesian inference, predictive coding, network models, computational models of neural dynamics and brain-body dynamics
-- **Neuroimaging**: fMRI, MEG/EEG
+- **Computational Modelling**: Bayesian inference, predictive coding, network models
+- **Neuroimaging**: fMRI, MEG/EEG, computational models of neural dynamics and brain-body dynamics
 - **Psychophysics**: Signal detection theory, threshold measurement, metacognition
 - **Interoception**: Specialized methods for measuring interoception in the respiratory, gastric, and cardiac domains
 - **Physiology**: ECG, respiration, electrogastrography (EGG), pupillometry, skin conductance
