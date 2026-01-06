@@ -19,6 +19,7 @@ Browse all our repositories at our [GitHub Organization](https://github.com/embo
 | [Cardioception](#cardioception) | Cardiac interoception measurement tasks |
 | [Hierarchical Interoception](#hierarchical-interoception-toolkit) | Bayesian analysis for interoceptive psychophysics |
 | [RRST](#respiratory-resistance-sensitivity-task-rrst) | Respiratory interoception measurement |
+| [Raincloud Plots](#raincloud-plots) | Multi-platform tool for robust data visualization |
 
 ---
 
@@ -78,6 +79,21 @@ An automated method for measuring respiratory interoception using a fully 3D-pri
 - **Accessible Design**: 3D-printable components eliminate need for expensive medical equipment
 
 High test-retest reliability with minimal participant discomfort, completing full assessment in 30-45 minutes.
+
+---
+
+### Raincloud Plots
+
+<a href="https://github.com/RainCloudPlots/RainCloudPlots"><i class="fab fa-github"></i> GitHub</a> &nbsp; <a href="https://github.com/jorvlan/raincloudplots"><i class="fab fa-github"></i> R Package</a>
+
+A data visualization method combining raw data, probability density, and summary statistics into a single plot. Created by Micah Allen, Raincloud Plots offer a robust alternative to bar charts and box plots that reduces information loss while maintaining clarity.
+
+- **Multi-language Support**: Available in R (`ggrain`, `raincloudplots`), Python (`PtitPrince`), and MATLAB
+- **Publication-Ready**: Produces beautiful, statistically valid visualizations with minimal code
+- **Repeated Measures**: Supports individually linked data points across conditions and time points
+- **Flexible Designs**: Handles 1x1, 2x2, 2x3, and between/within-subject experimental designs
+
+**Citation:** Allen, M., Poggiali, D., Whitaker, K., et al. (2021). "Raincloud plots: a multi-platform tool for robust data visualization." *Wellcome Open Research*, 4:63.
 
 ---
 
