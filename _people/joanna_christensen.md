@@ -1,6 +1,6 @@
 ---
 name: Joanna Christensen
-position: alumni
+position: inactive
 avatar: default_avatar.jpg
 joined: 2011
 role: Master's Student
