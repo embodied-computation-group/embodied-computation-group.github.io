@@ -1,7 +1,7 @@
 ---
 name: Niia Nikolova
 position: alumni
-avatar: niia_nikolova.png
+avatar: niia_nikolova.jpeg
 joined: 2019
 left: 2022
 ---
