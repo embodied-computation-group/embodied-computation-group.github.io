@@ -13,7 +13,7 @@ The Embodied Computation Group investigates how visceral and embodied processes 
 
 <img src="/images/others/intero_1_crop.png" alt="Visceral Inference & Interoception" style="float: right; max-width: 250px; margin: 0 0 15px 20px;">
 
-How does the brain process signals from within the body? We study the computational and neural mechanisms underlying interoception - the sense of the internal state of the body. Our work examines how cardiac, respiratory, and gastric signals influence perception, attention, and decision-making.
+How does the brain process signals from within the body, and how do our beliefs and expectations shape our embodied self experience? We study the computational and neural mechanisms underlying interoception - the sense of the internal state of the body. Our work examines how cardiac, respiratory, and gastric signals influence perception, attention, and decision-making. Using computational and psychophysical techniques, as well as maker methods like 3D printing, we develop open source, robustly validated tools for quantifying interoception across different domains. This enables us to understand how beliefs and expectations are integrated with visceral signals in different contexts and populations.
 
 <div style="clear: both;"></div>
 
