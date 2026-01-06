@@ -3,8 +3,9 @@ name: Darya Frank
 position: alumni
 avatar: default_avatar.jpg
 joined: 2015
-role: Master's Student
-current:
+left: 2016
+former_role: Master's Student
+current_position: Royal Society University Research Fellow, University of Manchester
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
