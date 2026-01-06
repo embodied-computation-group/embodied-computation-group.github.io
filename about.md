@@ -52,6 +52,7 @@ Our work spans two interconnected domains:
 
 Our research is generously supported by:
 
+- European Research Council
 - Lundbeck Foundation
 - Aarhus Institute of Advanced Studies
 - Cambridge Psychiatry
