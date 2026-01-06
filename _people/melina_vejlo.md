@@ -10,4 +10,4 @@ joined: 2021
 - _PhD Student_<br>
 - _Cognitive Science Programme, Aarhus University_<br>
 
-Melina Vejlø is a master student of the Cognitive Science programme at Aarhus University and a PhD student with the ECG. Melina is doing her PhD on how Cannabinoids (THC and CBD) modulate and affect effort, reward and effort prediction errors, feelings of fatigue and interception.
+Melina Vejlø is a PhD student with the ECG. She did her bachlors and masters degree in Cognitive Science at Aarhus University. Melina is doing her PhD on how THC modulate and affect effort, reward and effort prediction errors, feelings of fatigue and interception.
