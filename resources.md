@@ -3,6 +3,13 @@ title: Resources
 permalink: /resources/
 ---
 
+| Software | Methods | About |
+|----------|---------|-------|
+| [Systole](#systole) | [Hierarchical Interoception](#hierarchical-interoception-toolkit) | [Collaborations](#collaborations) |
+| [Cardioception](#cardioception) | [RRST](#respiratory-resistance-sensitivity-task-rrst) | [Contact](#contact) |
+
+---
+
 ## Open Science Commitment
 
 **100% of our publications include a GitHub repository** containing full data, code, experimental tasks, stimuli, and analysis pipelines. We believe reproducible science requires transparent sharing of all research materials.
