@@ -3,8 +3,9 @@ name: Nanna Kildahl Mathiasen
 position: alumni
 avatar: default_avatar.jpg
 joined: 2019
-role: Master's Student & Research Assistant
-current:
+left: 2021
+former_role: Master's Student & Research Assistant
+current_position: Data & Insights Consultant, Delegate
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
