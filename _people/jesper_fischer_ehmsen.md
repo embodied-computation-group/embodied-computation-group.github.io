@@ -1,7 +1,7 @@
 ---
 name: Jesper Fischer Ehmsen
 position: alumni
-avatar: default_avatar.png
+avatar: jesperehmsen.jpeg
 joined: 2022
 left: 2024
 former_role: Research Assistant
