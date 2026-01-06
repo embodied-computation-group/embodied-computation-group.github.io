@@ -55,9 +55,9 @@ Developing causal manipulations of neurovisceral connections and visceral affere
 
 ---
 
-### Clinical Applications
+### Clinical Applications & Computational Psychiatry
 
-We translate our basic research findings to understand clinical populations suffering from disordered brain-body interaction. This includes work on anxiety disorders, depression, and other conditions characterized by altered interoceptive processing.
+We bring together our models, manipulations, and measures to map, understand, phenotype, and ultimately intervene upon disorders of mood, affect, and brain-body interaction. This work is particularly focused on interoception as a bridge between somatic and psychiatric illnesses and their strong comorbidities. For example, patients with psychiatric illnesses are more than twice as likely to die from cancer and cardiometabolic disease, and suffer substantially worse outcomes and delays in their journey through the healthcare system. We believe interoception plays a key role in this and are actively applying our research to help patients from both sides achieve better outcomes.
 
 ---
 
