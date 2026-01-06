@@ -1,7 +1,7 @@
 ---
 name: Malthe Brændholt Sørensen
 position: gradstudent
-avatar: malthe_sorensen.png
+avatar: malthe_bh_photo.png
 joined: 2021
 ---
 
