@@ -103,6 +103,11 @@ Developing causal manipulations of neurovisceral connections and visceral affere
 
 We bring together our models, manipulations, and measures to map, understand, phenotype, and ultimately intervene upon disorders of mood, affect, and brain-body interaction. This work is particularly focused on interoception as a bridge between somatic and psychiatric illnesses and their strong comorbidities. For example, patients with psychiatric illnesses are more than twice as likely to die from cancer and cardiometabolic disease, and suffer substantially worse outcomes and delays in their journey through the healthcare system. We believe interoception plays a key role in this and are actively applying our research to help patients from both sides achieve better outcomes.
 
+**Representative Publications:**
+- Jeganathan, J., Campbell, M. E. J., Legrand, N., Allen, M., & Breakspear, M. (2024). [Aberrant Cardiac Interoception in Psychosis](https://doi.org/10.1093/schbul/sbae078). *Schizophrenia Bulletin*, sbae078.
+- Banellis, L., Rebollo, I., Nikolova, N., & Allen, M. (2025). [Stomach–brain coupling indexes a dimensional signature of mental health](https://doi.org/10.1038/s44220-025-00468-6). *Nature Mental Health*, 3(8), 899–908.
+- Banellis, L., Nikolova, N., Ehmsen, J. F., Courtin, A. S., et al. (2025). [Interoceptive Ability is Unrelated to Mental Health Symptoms](https://doi.org/10.1101/2025.08.25.25334366). *medRxiv*.
+
 <div style="clear: both;"></div>
 
 ---
