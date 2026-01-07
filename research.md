@@ -87,6 +87,12 @@ How do we form confidence in our decisions and perceptions? Our work spans perce
 
 Developing causal manipulations of neurovisceral connections and visceral afferents is essential to understand and disentangle the intricate web of brain-body connections that govern emotion, consciousness, and mental health. In this work, we develop pharmacological, behavioral, and lifestyle interventions, as well as emerging neural stimulation techniques including vagal nerve stimulation and ultrasound stimulation, to causally perturb specific neural and visceral foci and understand their role in interoception and beyond.
 
+**Representative Publications:**
+- Hauser, T. U., Allen, M., Purg, N., Moutoussis, M., Rees, G., & Dolan, R. J. (2017). [Noradrenaline blockade specifically enhances metacognitive performance](https://doi.org/10.7554/eLife.24901). *eLife*, 6.
+- Duerler, P., Brem, S., Fraga-González, G., Neef, T., Allen, M., et al. (2021). [Psilocybin Induces Aberrant Prediction Error Processing of Tactile Mismatch Responses](https://doi.org/10.1093/cercor/bhab202). *Cerebral Cortex*, bhab202.
+- Leganes-Fonteneau, M., Desmedt, O., Allen, M. G., Wiers, R. W., & Maurage, P. (2025). [Mapping acute alcohol effects on bodily sensations: A cross-dimensional interoceptive approach](https://doi.org/10.1177/02698811251338223). *Journal of Psychopharmacology*, 39(7), 682–693.
+- Tyrer, A., Ehmsen, J. F., Hoogervorst, K., Nikolova, N., et al. (2025). [Peripheral Beta-Blockade Differentially Enhances Cardiac and Respiratory Interoception](https://doi.org/10.1101/2025.02.28.640776). *bioRxiv*.
+
 <div style="clear: both;"></div>
 
 ---
