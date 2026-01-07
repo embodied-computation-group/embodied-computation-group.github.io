@@ -72,6 +72,11 @@ Emotions are fundamentally embodied experiences. We investigate how bodily state
 
 How do we form confidence in our decisions and perceptions? Our work spans perceptual and value-based decision making to understand how we form confidence representations and the computational principles underlying metacognition. We develop new computational models of metacognition across cognitive, perceptual, and interoceptive domains. A key focus is understanding how these processes interact with brain-body dynamics and interoception, including how cardiac and respiratory cycles modulate conscious perception and awareness.
 
+**Representative Publications:**
+- Allen, M., Hauser, T. U., Schwarzkopf, D. S., Dolan, R. J., & Rees, G. (2022). [Uncertain Precision: Neurobiological and Physiological Correlates of Conservative Confidence Bias](https://doi.org/10.1101/2022.08.01.502365). *bioRxiv*.
+- Hoogervorst, K., Banellis, L., & Allen, M. G. (2025). [Domain-specific updating of metacognitive self-beliefs](https://doi.org/10.1016/j.cognition.2024.105965). *Cognition*, 254, 105965.
+- Lund, A. E., Corrêa, C. M. C., Fardo, F., Fleming, S. M., & Allen, M. G. (2025). [Domain generality in metacognitive ability: A confirmatory study across visual perception, episodic memory, and semantic memory](https://doi.org/10.1037/xlm0001462). *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 51(10), 1594–1605.
+
 <div style="clear: both;"></div>
 
 ---
