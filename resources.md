@@ -36,7 +36,7 @@ A Python package for cardiac signal analysis in psychophysiology research. Systo
 
 Features BIDS-format compatibility, native hardware integration with Nonin pulse oximeters and BrainVision amplifiers, and web-based viewers for annotating cardiac data.
 
-**Citation:** Legrand, N., & Allen, M. (2022). Systole: A python package for cardiac signal synchrony and analysis. *Journal of Open Source Software*, 7(69), 3832.
+**Citation:** Legrand & Allen (2022). [Systole: A python package for cardiac signal synchrony and analysis](https://doi.org/10.21105/joss.03832). *JOSS*, 7(69), 3832.
 
 ---
 
@@ -51,7 +51,7 @@ A Python package implementing validated psychophysical tasks for measuring cardi
 
 Designed for minimal hardware requirements (computer + pulse oximeter), with flexible integration for ECG, M/EEG, and fMRI setups. Includes R-based hierarchical Bayesian modeling tools for analysis.
 
-**Citation:** Legrand, N., Nikolova, N., Correa, C., Brændholt, M., Stuckert, A., Kildahl, N., Vejlø, M., Fardo, F., & Allen, M. (2022). The heart rate discrimination task: A psychophysical method to estimate the accuracy and precision of interoceptive beliefs. *Biological Psychology*, 168, 108239. https://doi.org/10.1016/j.biopsycho.2021.108239
+**Citation:** Legrand, N., Nikolova, N., Correa, C., Brændholt, M., Stuckert, A., Kildahl, N., Vejlø, M., Fardo, F., & Allen, M. (2022). [The heart rate discrimination task: A psychophysical method to estimate the accuracy and precision of interoceptive beliefs](https://doi.org/10.1016/j.biopsycho.2021.108239). *Biological Psychology*, 168, 108239.
 
 ---
 
@@ -69,7 +69,7 @@ Hierarchical Bayesian psychometric function models for analyzing interoceptive p
 
 Includes comprehensive R Markdown workflows demonstrating data simulation, model specification, fitting, diagnostics, and visualization.
 
-**Citation:** Courtin, A. S., Ehmsen, J. F., Banellis, L., Fardo, F., & Allen, M. G. (2025). Hierarchical Bayesian Modelling of Interoceptive Psychophysics. *bioRxiv*. https://doi.org/10.1101/2025.08.27.672360
+**Citation:** Courtin, A. S., Ehmsen, J. F., Banellis, L., Fardo, F., & Allen, M. G. (2025). [Hierarchical Bayesian Modelling of Interoceptive Psychophysics](https://doi.org/10.1101/2025.08.27.672360). *bioRxiv*.
 
 ---
 
@@ -86,7 +86,7 @@ An automated method for measuring respiratory interoception using a fully 3D-pri
 
 High test-retest reliability with minimal participant discomfort, completing full assessment in 30-45 minutes.
 
-**Citation:** Nikolova, N., Harrison, O., Toohey, S., Brændholt, M., Legrand, N., Correa, C., Vejlø, M., Jensen, M. S., Fardo, F., & Allen, M. (2022). The respiratory resistance sensitivity task: An automated method for quantifying respiratory interoception and metacognition. *Biological Psychology*, 170, 108325. https://doi.org/10.1016/j.biopsycho.2022.108325
+**Citation:** Nikolova, N., Harrison, O., Toohey, S., Brændholt, M., Legrand, N., Correa, C., Vejlø, M., Jensen, M. S., Fardo, F., & Allen, M. (2022). [The respiratory resistance sensitivity task: An automated method for quantifying respiratory interoception and metacognition](https://doi.org/10.1016/j.biopsycho.2022.108325). *Biological Psychology*, 170, 108325.
 
 ---
 
@@ -102,8 +102,8 @@ A data visualization method combining raw data, probability density, and summary
 - **Flexible Designs**: Handles 1x1, 2x2, 2x3, and between/within-subject experimental designs
 
 **Citations:**
-- Allen, M., Poggiali, D., Whitaker, K., et al. (2021). Raincloud plots: a multi-platform tool for robust data visualization. *Wellcome Open Research*, 4:63.
-- Judd, N., Langen, J. van, Poggiali, D., Whitaker, K., Marshall, T. R., Allen, M., & Kievit, R. (2024). ggrain—A ggplot2 extension for raincloud plots. *bioRxiv*. https://doi.org/10.1101/2024.12.13.628294
+- Allen, M., Poggiali, D., Whitaker, K., et al. (2021). [Raincloud plots: a multi-platform tool for robust data visualization](https://doi.org/10.12688/wellcomeopenres.15191.2). *Wellcome Open Research*, 4:63.
+- Judd, N., Langen, J. van, Poggiali, D., Whitaker, K., Marshall, T. R., Allen, M., & Kievit, R. (2024). [ggrain—A ggplot2 extension for raincloud plots](https://doi.org/10.1101/2024.12.13.628294). *bioRxiv*.
 
 ---
 
