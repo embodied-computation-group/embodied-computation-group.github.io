@@ -27,6 +27,11 @@ Our research uses an integrated set of methods spanning computation, brain imagi
 
 How does the brain process signals from within the body, and how do our beliefs and expectations shape our embodied self experience? We study the computational and neural mechanisms underlying interoception - the sense of the internal state of the body. Our work examines how cardiac, respiratory, and gastric signals influence perception, attention, and decision-making. Using computational and psychophysical techniques, as well as maker methods like 3D printing, we develop open source, robustly validated tools for quantifying interoception across different domains. This enables us to understand how beliefs and expectations are integrated with visceral signals in different contexts and populations.
 
+**Representative Publications:**
+- Allen, M., Varga, S., & Heck, D. H. (2022). [Respiratory rhythms of the predictive mind](https://doi.org/10.1037/rev0000391). *Psychological Review*.
+- Legrand, N., Nikolova, N., Correa, C., Brændholt, M., Stuckert, A., Kildahl, N., Vejlø, M., Fardo, F., & Allen, M. (2022). [The heart rate discrimination task: A psychophysical method to estimate the accuracy and precision of interoceptive beliefs](https://doi.org/10.1016/j.biopsycho.2021.108239). *Biological Psychology*, 168, 108239.
+- Nikolova, N., Harrison, O., Toohey, S., Brændholt, M., Legrand, N., Correa, C., Vejlø, M., Jensen, M. S., Fardo, F., & Allen, M. (2022). [The respiratory resistance sensitivity task: An automated method for quantifying respiratory interoception and metacognition](https://doi.org/10.1016/j.biopsycho.2022.108325). *Biological Psychology*, 170, 108325.
+
 <div style="clear: both;"></div>
 
 ---
