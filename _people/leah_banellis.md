@@ -9,7 +9,7 @@ joined: 2021
 
 - _Postdoctoral Fellow_<br>
 
-<a href="https://scholar.google.com/citations?user=A4cuIhIAAAAJ&hl=en&oi=ao"><i class="fas fa-graduation-cap"></i> Google Scholar</a>  <a href="https://bsky.app/profile/leahbanellis.bsky.social"><i class="bi bi-bluesky"></i> Bluesky</a>
+<a href="https://scholar.google.com/citations?user=A4cuIhIAAAAJ&hl=en&oi=ao"><i class="fas fa-graduation-cap"></i> Google Scholar</a>  <a href="https://bsky.app/profile/leahbanellis.bsky.social"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
 
 
 Dr. Banellis is interested in brain-body interactions involved in psychiatric symptoms, consciousness and interoception. Her work in the ECG focuses on understanding how visceral signals from the stomach and other organs influence mental health. Using a combination of electrogastrography, fMRI, and machine learning, she has demonstrated that increased coupling between the stomach's electrical rhythm and frontoparietal brain regions indexes a dimensional signature of poorer mental health, spanning anxiety, depression, stress and well-being. Her large-scale psychophysical studies have also provided critical insights into the structure of interoceptive ability, showing that cardiac and respiratory interoception are largely independent processes.
