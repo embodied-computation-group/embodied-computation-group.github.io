@@ -112,6 +112,4 @@ We bring together our models, manipulations, and measures to map, understand, ph
 
 ---
 
-### Selected Publications
-
 Visit our [publications page](/publication) for a complete list of our research outputs.
