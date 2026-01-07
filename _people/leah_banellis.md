@@ -2,7 +2,7 @@
 name: Leah Banellis
 position: postdoc
 avatar: leah_photo.png
-joined: 2020
+joined: 2021
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -15,14 +15,17 @@ Dr. Banellis is interested in brain-body interactions involved in psychiatric sy
 
 For her PhD, she researched brain-heart interactions in healthy cognition and patients with disorders of consciousness, supervised by Dr. Damian Cruse at the University of Birmingham. Also with Dr. Cruse she completed her MSc in Brain Imaging and Cognitive Neuroscience, researching electrophysiological markers of conscious speech processing. She obtained her undergraduate degree in Psychology with Human Biology at Plymouth University, with her BSc project on embodiment and meditation with Prof. Susan Blackmore.
 
-In 2025, Leah received a Lundbeckfonden Postdoctoral Fellowship, which will take her to Dani Bassett's lab at Yale University and enable her to expand her work into models of multi-organ brain-body interaction and neural stimulation through collaborations at Copenhagen University and the ECG.
+In 2025, Leah received a Lundbeckfonden Postdoctoral Fellowship, which will take her to Dani Bassett's lab at Yale University and enable her to expand her work into models of multi-organ brain-body interaction and neural stimulation through collaborations at Copenhagen University with Dr. Anke Karabanov and the ECG.
 
-Leah has presented workshops on gastric-brain interaction and mental health at [WAVES 2024](https://waves-conference.com/waves24/), ICON 2025, and ASSC 2025.
+Leah has presented workshops on brain-body interactions and interoception at [WAVES 2024](https://waves-conference.com/waves24/), [Adriatica 2025](https://www.dnisc.unich.it/pagina-adriaticasc-1946), and ASSC 2025/2023. As well as presenting symposiums at ICON 2025, and NAD 2024,
 
-<a href="https://www.youtube.com/watch?v=bCWukBOfzBo"><i class="fab fa-youtube"></i> Watch Leah's lecture on gastric-brain coupling</a>
+<a href="https://www.youtube.com/watch?v=dDTvq8eKINI"><i class="fab fa-youtube"></i> Watch Leah discuss</a> and <a href="https://www.youtube.com/watch?v=bCWukBOfzBo"><i class="fab fa-youtube"></i> present gastric-brain coupling</a> 
+
+<a href="https://psyche.co/ideas/how-much-you-body-wander-could-affect-your-mental-health""><i class="fas fa-newspaper"></i> Read Leah's work on embodied mind-wandering and mental health</a>  
 
 #### Representative Publications
 
 - Banellis L, Rebollo I, Nikolova N, Allen M. (2025). [Stomach–brain coupling indexes a dimensional signature of mental health](https://www.nature.com/articles/s44220-025-00468-6). *Nature Mental Health*, 3, 899-908.
 - Banellis L, Nikolova N, Ehmsen JF, et al. (2025). [Interoceptive Ability is Unrelated to Mental Health Symptoms](https://www.medrxiv.org/content/10.1101/2025.08.25.25334366v1). *medRxiv*.
 - Banellis L, Nikolova N, Ehmsen J, et al. (2025). [Interoceptive ability is uncorrelated across respiratory and cardiac axes](https://osf.io/preprints/psyarxiv/s56v4_v1). *PsyArXiv*.
+- Banellis L, Nikolova N, Brændholdt M, et al. (2024). [Body-wandering reveals an embodied dimension of thought with distinct affective and neural signatures] (https://www.biorxiv.org/content/10.1101/2024.10.25.620252v2.full). *bioRxiv* 
