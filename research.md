@@ -42,6 +42,11 @@ How does the brain process signals from within the body, and how do our beliefs 
 
 We develop and test computational models that formalize how the brain integrates bodily signals with external sensory information. Drawing on predictive processing and active inference frameworks, we aim to understand the computational principles governing embodied cognition.
 
+**Representative Publications:**
+- Allen, M., Levy, A., Parr, T., & Friston, K. J. (2022). [In the Body's Eye: The computational anatomy of interoceptive inference](https://doi.org/10.1371/journal.pcbi.1010490). *PLOS Computational Biology*, 18(9), e1010490.
+- Brændholt, M., Nikolova, N., Vejlø, M., Banellis, L., Fardo, F., Kluger, D. S., & Allen, M. (2025). [The respiratory cycle modulates distinct dynamics of affective and perceptual decision-making](https://doi.org/10.1371/journal.pcbi.1013086). *PLOS Computational Biology*, 21(5), e1013086.
+- Courtin, A. S., Ehmsen, J. F., Banellis, L., Fardo, F., & Allen, M. G. (2025). [Hierarchical Bayesian Modelling of Interoceptive Psychophysics](https://doi.org/10.1101/2025.08.27.672360). *bioRxiv*.
+
 <div style="clear: both;"></div>
 
 ---
