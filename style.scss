@@ -556,3 +556,14 @@ tbody tr:nth-child(odd) th {
   border: none;
   background-color: #FFF;
 }
+
+// PDF link styling
+a[href$=".pdf"],
+a[href*="type=printable"] {
+  color: #333;
+  font-weight: 600;
+
+  &:hover {
+    color: #000;
+  }
+}
