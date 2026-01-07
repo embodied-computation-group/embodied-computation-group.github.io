@@ -21,13 +21,22 @@ In 2025, Leah received a Lundbeckfonden Postdoctoral Fellowship, which will take
 
 Leah has presented workshops on brain-body interactions and interoception at [WAVES 2024](https://waves-conference.com/waves24/), [Adriatica 2025](https://www.dnisc.unich.it/pagina-adriaticasc-1946), and ASSC 2025/2023. As well as presenting symposiums at ICON 2025, and NAD 2024,
 
-<a href="https://www.youtube.com/watch?v=dDTvq8eKINI"><i class="fab fa-youtube"></i> Watch Leah discuss</a> and <a href="https://www.youtube.com/watch?v=bCWukBOfzBo"><i class="fab fa-youtube"></i> present gastric-brain coupling</a> 
+<i class="fab fa-youtube"></i> Watch Leah 
+<a href="https://www.youtube.com/watch?v=dDTvq8eKINI">discuss</a> 
+and 
+<a href="https://www.youtube.com/watch?v=bCWukBOfzBo">present</a> 
+gastric–brain coupling
 
-<a href="https://psyche.co/ideas/how-much-you-body-wander-could-affect-your-mental-health""><i class="fas fa-newspaper"></i> Read Leah's work on embodied mind-wandering and mental health</a>  
+<i class="fas fa-newspaper"></i> Read Leah's 
+<a href="https://psyche.co/ideas/how-much-you-body-wander-could-affect-your-mental-health">
+  magazine article
+</a>
+on embodied mind-wandering and mental health 
 
 #### Representative Publications
 
 - Banellis L, Rebollo I, Nikolova N, Allen M. (2025). [Stomach–brain coupling indexes a dimensional signature of mental health](https://www.nature.com/articles/s44220-025-00468-6). *Nature Mental Health*, 3, 899-908.
 - Banellis L, Nikolova N, Ehmsen JF, et al. (2025). [Interoceptive Ability is Unrelated to Mental Health Symptoms](https://www.medrxiv.org/content/10.1101/2025.08.25.25334366v1). *medRxiv*.
 - Banellis L, Nikolova N, Ehmsen J, et al. (2025). [Interoceptive ability is uncorrelated across respiratory and cardiac axes](https://osf.io/preprints/psyarxiv/s56v4_v1). *PsyArXiv*.
-- Banellis L, Nikolova N, Brændholdt M, et al. (2024). [Body-wandering reveals an embodied dimension of thought with distinct affective and neural signatures] (https://www.biorxiv.org/content/10.1101/2024.10.25.620252v2.full). *bioRxiv* 
+- Banellis L, Nikolova N, Brændholdt M, et al. (2024). [Body-wandering reveals an embodied dimension of thought with distinct affective and neural signatures](https://www.biorxiv.org/content/10.1101/2024.10.25.620252v2.full). *bioRxiv*
+
