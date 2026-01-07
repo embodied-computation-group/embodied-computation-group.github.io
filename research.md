@@ -57,6 +57,11 @@ We develop and test computational models that formalize how the brain integrates
 
 Emotions are fundamentally embodied experiences. We investigate how bodily states contribute to emotional experience and how disruptions in brain-body interaction may contribute to affective disorders such as anxiety and depression.
 
+**Representative Publications:**
+- Allen, M., Frank, D., Schwarzkopf, D. S., Fardo, F., Winston, J. S., Hauser, T. U., & Rees, G. (2016). [Unexpected arousal modulates the influence of sensory noise on confidence](https://doi.org/10.7554/eLife.18103). *eLife*, 5, e18103.
+- Banellis, L., Nikolova, N., Brændholdt, M., Vejlø, M., Fardo, F., Smallwood, J., & Allen, M. G. (2024). [Body-wandering reveals an embodied dimension of thought with distinct affective and neural signatures](https://doi.org/10.1101/2024.10.25.620252). *bioRxiv*.
+- Ehmsen, J. F., Nikolova, N., Christensen, D. E., Banellis, L., Böhme, R. A., et al. (2025). [Thermosensory predictive coding underpins an illusion of pain](https://doi.org/10.1126/sciadv.adq0261). *Science Advances*, 11(11), eadq0261.
+
 <div style="clear: both;"></div>
 
 ---
