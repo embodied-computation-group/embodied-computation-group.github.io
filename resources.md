@@ -17,6 +17,9 @@ Browse all our repositories at our [GitHub Organization](https://github.com/embo
 |------------|-------------|
 | [Systole](#systole) | Cardiac signal analysis for psychophysiology |
 | [Cardioception](#cardioception) | Cardiac interoception measurement tasks |
+| [respyra](#respyra) | Respiratory motor tracking for interoception research |
+| [GastroPy](#gastropy) | Electrogastrography signal processing and gastric-brain coupling |
+| [metadpy](#metadpy) | Bayesian modeling of behavioral metacognition |
 | [Hierarchical Interoception](#hierarchical-interoception-toolkit) | Bayesian analysis for interoceptive psychophysics |
 | [RRST](#respiratory-resistance-sensitivity-task-rrst) | Respiratory interoception measurement |
 | [Raincloud Plots](#raincloud-plots) | Multi-platform tool for robust data visualization |
@@ -52,6 +55,60 @@ A Python package implementing validated psychophysical tasks for measuring cardi
 Designed for minimal hardware requirements (computer + pulse oximeter), with flexible integration for ECG, M/EEG, and fMRI setups. Includes R-based hierarchical Bayesian modeling tools for analysis.
 
 **Citation:** Legrand, N., Nikolova, N., Correa, C., Brændholt, M., Stuckert, A., Kildahl, N., Vejlø, M., Fardo, F., & Allen, M. (2022). [The heart rate discrimination task: A psychophysical method to estimate the accuracy and precision of interoceptive beliefs](https://doi.org/10.1016/j.biopsycho.2021.108239). *Biological Psychology*, 168, 108239.
+
+---
+
+### respyra
+
+<a href="https://github.com/embodied-computation-group/respyra"><i class="fab fa-github"></i> GitHub</a> &nbsp; <a href="https://pypi.org/project/respyra/"><i class="fas fa-box"></i> PyPI</a>
+
+A Python toolbox for respiratory motor tracking experiments in interoception research. respyra integrates a wireless chest-mounted force sensor with PsychoPy to create closed-loop breathing paradigms with real-time visual feedback.
+
+- **Real-Time Display**: Scrolling waveform with target dot and participant trace with graded color-coded feedback
+- **Visuomotor Perturbation**: Configurable gain manipulation for studying respiratory motor recalibration
+- **Automated Calibration**: Percentile-based range calibration with outlier rejection and saturation warnings
+- **Crash-Resilient Logging**: Row-level CSV flushing ensures no data loss mid-session
+- **Post-Session Visualization**: `respyra-plot` command for generating 6-panel summary figures
+
+High split-half reliability (r = .86 Spearman-Brown corrected), suitable for individual-differences research.
+
+**Citation:** Allen, M. (2026). [respyra: A General-Purpose Respiratory Tracking Toolbox for Interoception Research](https://osf.io/preprints/psyarxiv/wjuce_v1). *PsyArXiv*.
+
+---
+
+### GastroPy
+
+<a href="https://github.com/embodied-computation-group/gastropy"><i class="fab fa-github"></i> GitHub</a>
+
+A Python package providing a modular pipeline for electrogastrography (EGG) signal processing and gastric-brain coupling analysis. Designed for researchers studying gastric electrical activity and its relationship to brain imaging data.
+
+- **Signal Processing**: Power spectral density, bandpass filtering (FIR/IIR), Hilbert-transform phase extraction, cycle detection, and artifact handling
+- **Metrics & Analysis**: Gastric frequency band classification, instability coefficients, cycle statistics, and quality assessment
+- **fMRI Integration**: Scanner trigger detection, volume windowing, confound regression, voxelwise BOLD phase extraction, and PLV map computation with NIfTI support
+- **Coupling Analysis**: Phase-locking values, surrogate testing, and circular statistics (Rayleigh tests, resultant length)
+- **High-Level Pipeline**: One-liner `egg_process()` function for complete workflow automation
+- **Visualization**: Publication-ready PSD plots, 4-panel EGG overviews, cycle histograms, and brain coupling maps
+
+**Citation:** Allen, M. (2026). GastroPy: A Python Package for Electrogastrography Signal Processing and Gastric-Brain Coupling Analysis. GitHub. [https://github.com/embodied-computation-group/gastropy](https://github.com/embodied-computation-group/gastropy)
+
+---
+
+### metadpy
+
+<a href="https://github.com/embodied-computation-group/metadpy"><i class="fab fa-github"></i> GitHub</a>
+
+A Python library for Bayesian modeling of behavioral metacognition, providing the Python equivalent to the hMeta-d toolbox. Computes standard signal detection theory indices and metacognitive efficiency measures from trial-level performance and confidence ratings.
+
+- **Signal Detection Theory**: d-prime, criterion, hit/false alarm rates, ROC-AUC
+- **Meta-d' Estimation**: Maximum likelihood estimation of metacognitive sensitivity
+- **Hierarchical Bayesian Models**: Hierarchical meta-d' via Hamiltonian Monte Carlo (NUTS), powered by PyMC and PyTensor
+- **Simulation Tools**: Response simulation for generating synthetic metacognition datasets
+- **Visualization**: Specialized plotting functions for metacognitive data
+- **Pandas Integration**: Statistical functions callable directly as DataFrame methods
+
+**Citations:**
+- Fleming, S. M. (2017). [HMeta-d: hierarchical Bayesian estimation of metacognitive efficiency from confidence ratings](https://doi.org/10.1093/nc/nix007). *Neuroscience of Consciousness*, 3(1), nix007.
+- Maniscalco, B. & Lau, H. (2012). [A signal detection theoretic approach for estimating metacognitive sensitivity from confidence ratings](https://doi.org/10.1016/j.concog.2011.09.021). *Consciousness and Cognition*, 21(1), 422--430.
 
 ---
 
