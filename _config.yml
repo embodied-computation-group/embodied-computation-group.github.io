@@ -36,6 +36,8 @@ nav:
     href:           "/join"
   - name:           "resources"
     href:           "/resources"
+  - name:           "news"
+    href:           "/news"
   - name:           "blog"
     href:           "/blog"
 

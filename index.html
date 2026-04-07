@@ -34,37 +34,23 @@ layout: default
       <a href="mailto:micah@cfin.au.dk"><i class="far fa-envelope"></i> Contact</a>
       </p>
 
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
+      <div class="w3-container" style="background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
         <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u>Happenings of the last few months</u>
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 7776000 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
+          <h3> Latest from the Lab </h3>
+          <div>
+              <ul style="list-style-position:outside;padding:20px">
+                {% assign recent_posts = site.posts | where: "categories", "blog" %}
+                {% for post in recent_posts limit:5 %}
+                  <li style="margin-bottom: 8px;">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <span style="color: #838383; font-size: 13px;"> &mdash; {{ post.date | date: "%B %-d, %Y" }}</span>
+                  </li>
                 {% endfor %}
               </ul>
+              <p style="text-align: right; margin-top: 5px;"><a href="/blog">All posts &rarr;</a> &nbsp; <a href="/news">News & media &rarr;</a></p>
           </div>
-        </div >
+        </div>
       </div>
-
-
-
-      <span style="display: block; margin-bottom: 3em"></span>
-
-
-      <h3>Latest from Bluesky</h3>
-      <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-      <bsky-embed username="the-ecg.org" limit="5"></bsky-embed>
 
       <span style="display: block; margin-bottom: 3em"></span>
       Department of Clinical Medicine, Aarhus University<br>
