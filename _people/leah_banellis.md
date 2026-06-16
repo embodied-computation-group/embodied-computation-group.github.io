@@ -1,4 +1,4 @@
-<img width="468" height="11" alt="image" src="https://github.com/user-attachments/assets/6f424c60-b5d9-4883-8739-a140d58567e7" />---
+---
 name: Leah Banellis
 position: postdoc
 avatar: leah_photo.png
