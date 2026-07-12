@@ -1,13 +1,16 @@
 ---
 name: Siebe Everaerts
-position: visiting
+position: alumni
 avatar: default_avatar.png
 joined: 2025
+left: 2026
+former_role: Visiting MSc Student
+current_position: KU Leuven, applying to PhD programmes
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-- _Msc student Psychology: Theory and Research_<br>
-- _KU Leuven visiting ECG_<br>
+- _Visiting MSc Student, Psychology: Theory and Research (2025-2026)_<br>
+- _KU Leuven_<br>
 
-Siebe Everaerts is a visiting MSc Psychology: Theory and Research student from KU Leuven. His work focuses on metacognition and physiological processes, which he studies through computational modeling. His current projects investigate how computational models can deepen our understanding of metacognitive judgments and how these processes relate to physiological signals.
+Siebe Everaerts was a visiting MSc Psychology: Theory and Research student from KU Leuven. His work focused on metacognition and physiological processes, which he studied through computational modeling, investigating how computational models can deepen our understanding of metacognitive judgments and how these processes relate to physiological signals. He has since returned to KU Leuven, where he is applying to PhD programmes.
