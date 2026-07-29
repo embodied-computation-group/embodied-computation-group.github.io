@@ -370,6 +370,63 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     text-transform: uppercase;
   }
+
+  // Styles for post bodies built with pandoc + citeproc: figures with
+  // captions, superscript citation markers, and the numbered reference
+  // list. See CLAUDE.md for the build command.
+
+  .hero img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  figure {
+    margin: 2rem 0;
+
+    // Cap by height, not width: tall portrait figures are natively taller
+    // than the viewport and the 40rem container never constrains them.
+    img {
+      max-height: 75vh;
+      width: auto;
+      margin: 0 auto .75rem;
+    }
+  }
+
+  figcaption {
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #838383;
+  }
+
+  .citation sup {
+    font-size: .7em;
+    padding-left: .05em;
+  }
+
+  .csl-bib-body {
+    font-size: .8rem;
+    line-height: 1.5;
+  }
+
+  // Hanging indent: number in a fixed left column, reference beside it.
+  .csl-entry {
+    display: flex;
+    margin-bottom: .6rem;
+  }
+
+  .csl-left-margin {
+    flex: 0 0 2rem;
+  }
+
+  .csl-right-inline {
+    flex: 1;
+  }
+
+  .disclaimer {
+    margin-top: 2rem;
+    font-size: .8rem;
+    color: #838383;
+  }
 }
 
 .list {

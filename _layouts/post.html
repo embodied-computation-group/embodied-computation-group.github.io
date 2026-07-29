@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container content post">
   <h3><strong>{{ page.title }}</strong><br/>
-  <small>posted on {{ page.date | date: '%B %-d, %Y'}}</small></h3>
+  <small>posted on {{ page.date | date: '%B %-d, %Y'}}{% if page.author %} by {% if page.author_url %}<a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %}{% endif %}</small></h3>
   <hr>
   {{ content }}
   {% include social-share.html %}
