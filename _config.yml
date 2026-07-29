@@ -9,7 +9,12 @@ description:        "The Embodied Computation Group is a multidisciplinary resea
 
 
 # URL
+# `url` is deliberately empty so asset paths stay relative and local previews
+# do not load production CSS/JS. `canonical_url` is the absolute site URL, used
+# only where a full URL is required (Open Graph tags, which social crawlers
+# cannot resolve from a relative path).
 url:                ""
+canonical_url:      "https://www.the-ecg.org"
 baseurl:
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
