@@ -13,6 +13,11 @@ Selected press and media features covering the lab's research.
 <p class="list-detail" style="margin-bottom: 1rem;">Our study revealing that the wandering mind frequently turns toward bodily sensations, with implications for depression and ADHD.</p>
 
 <div style="border-left: 3px solid #5d8aa8; padding-left: 1rem; margin-bottom: 0.75rem;">
+<p style="margin-bottom: 0.25rem;"><a href="https://www.tagesspiegel.de/wissen/wenn-der-geist-wandert-das-unterschatzte-potenzial-des-tagtraumens-15720785.html"><strong>Wenn der Geist wandert: Das unterschätzte Potenzial des Tagträumens</strong></a></p>
+<p class="list-detail" style="margin-bottom: 0;">Der Tagesspiegel &middot; Felix Schmidtner &middot; July 26, 2026 &middot; in German</p>
+</div>
+
+<div style="border-left: 3px solid #5d8aa8; padding-left: 1rem; margin-bottom: 0.75rem;">
 <p style="margin-bottom: 0.25rem;"><a href="https://www.sciencenews.org/article/mind-wander-body-mental-health"><strong>When our minds wander to the body, it may affect mental health</strong></a></p>
 <p class="list-detail" style="margin-bottom: 0;">Science News &middot; Diana Kwon &middot; April 3, 2026</p>
 </div>
