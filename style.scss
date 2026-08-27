@@ -763,11 +763,15 @@ a[href*="type=printable"] {
   }
 
   /* --- Syntax highlighting: dark counterpart --- */
+  pre, .highlight {
+    border: 1px solid var(--border);
+  }
+
   .highlight {
     background-color: var(--surface);
 
     .hll { background-color: #2d2a1f; }
-    .c, .cm, .c1, .cd { color: #7f8895; font-style: italic; }
+    .c, .cm, .c1, .cd { color: #949dab; font-style: italic; }
     .cp, .cs { color: #9aa3ad; font-weight: bold; font-style: italic; }
     .err { color: #ff8a8a; background-color: #3a2326; }
     .k, .o, .kc, .kd, .kn, .kp, .kr { color: #e6edf3; font-weight: bold; }
@@ -789,6 +793,14 @@ a[href*="type=printable"] {
     .ne, .nf { color: #ff9aa8; font-weight: bold; }
     .nt { color: #7ee787; }
     .w { color: #4a525c; }
+
+    /* These four are easy to miss: the light theme sets them, so without a
+       dark counterpart they keep their light-theme colours. .ow is pure
+       black - Python's and/or/in/not/is - which is invisible here.       */
+    .ow { color: #e6edf3; font-weight: bold; }
+    .bp { color: #79c0ff; }
+    .nl { color: #ff9aa8; font-weight: bold; }
+    .sr { color: #7ee787; }
   }
 }
 
