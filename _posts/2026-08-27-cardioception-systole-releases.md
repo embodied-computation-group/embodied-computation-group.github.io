@@ -1,6 +1,6 @@
 ---
-title: "Cardioception 0.7.0 and systole 0.3.2"
-description: "New releases of cardioception and systole with simple pip installation, current Python and PsychoPy support, practical HRD tutorials, and an important heart-rate correction."
+title: "Announcing cardioception 0.7.0 and systole 0.3.2"
+description: "New releases of our cardiac interoception toolboxes, with simple pip installation, current Python and PsychoPy support, practical HRD tutorials, and an important heart-rate correction."
 categories: blog
 author: Micah G. Allen
 author_url: /people/micah_allen/
