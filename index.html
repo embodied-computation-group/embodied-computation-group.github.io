@@ -21,7 +21,7 @@ layout: default
 
       <img class='img-responsive center-block' src="/images/logo/labphoto_ecg.jpg" style="max-width: 80%; margin: 20px auto 8px;" />
 
-      <p style="text-align: center; color: #838383; font-size: 13px; font-style: italic; margin-bottom: 20px;">
+      <p class="caption-note">
       ECG Lab Retreat, 2023, Seville Spain
       </p>
 
@@ -34,7 +34,7 @@ layout: default
       <a href="mailto:micah@cfin.au.dk"><i class="far fa-envelope"></i> Contact</a>
       </p>
 
-      <div class="w3-container" style="background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
+      <div class="w3-container latest-box">
         <div style="text-align:left">
           <h3> Latest from the Lab </h3>
           <div>
@@ -43,7 +43,7 @@ layout: default
                 {% for post in recent_posts limit:5 %}
                   <li style="margin-bottom: 8px;">
                     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    <span style="color: #838383; font-size: 13px;"> &mdash; {{ post.date | date: "%B %-d, %Y" }}</span>
+                    <span class="muted-note"> &mdash; {{ post.date | date: "%B %-d, %Y" }}</span>
                   </li>
                 {% endfor %}
               </ul>

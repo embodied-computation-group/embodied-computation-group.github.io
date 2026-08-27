@@ -9,7 +9,7 @@ Selected press and media features covering the lab's research.
 
 <div class="content">
 
-<h3 style="margin-top: 2rem; margin-bottom: 0.25rem;">Body-Wandering <span style="font-weight: 300; color: #838383;">&mdash; PNAS, 2026</span></h3>
+<h3 style="margin-top: 2rem; margin-bottom: 0.25rem;">Body-Wandering <span class="muted-note" style="font-weight: 300;">&mdash; PNAS, 2026</span></h3>
 <p class="list-detail" style="margin-bottom: 1rem;">Our study revealing that the wandering mind frequently turns toward bodily sensations, with implications for depression and ADHD.</p>
 
 <div style="border-left: 3px solid #5d8aa8; padding-left: 1rem; margin-bottom: 0.75rem;">
@@ -29,7 +29,7 @@ Selected press and media features covering the lab's research.
 
 <hr style="margin: 2rem 0;"/>
 
-<h3 style="margin-bottom: 0.25rem;">Gut-Brain Coupling and Mental Health <span style="font-weight: 300; color: #838383;">&mdash; Nature Mental Health, 2025</span></h3>
+<h3 style="margin-bottom: 0.25rem;">Gut-Brain Coupling and Mental Health <span class="muted-note" style="font-weight: 300;">&mdash; Nature Mental Health, 2025</span></h3>
 <p class="list-detail" style="margin-bottom: 1rem;">How synchronization between stomach rhythms and brain activity reflects mental strain, anxiety, and depression.</p>
 
 <div style="border-left: 3px solid #5d8aa8; padding-left: 1rem; margin-bottom: 0.75rem;">
@@ -49,7 +49,7 @@ Selected press and media features covering the lab's research.
 
 <hr style="margin: 2rem 0;"/>
 
-<h3 style="margin-bottom: 0.25rem;">Breathing and the Brain <span style="font-weight: 300; color: #838383;">&mdash; Psychological Review, 2022</span></h3>
+<h3 style="margin-bottom: 0.25rem;">Breathing and the Brain <span class="muted-note" style="font-weight: 300;">&mdash; Psychological Review, 2022</span></h3>
 <p class="list-detail" style="margin-bottom: 1rem;">Our synthesis showing that breathing rhythms directly shape brain activity, cognition, and emotional processing.</p>
 
 <div style="border-left: 3px solid #5d8aa8; padding-left: 1rem; margin-bottom: 0.75rem;">
