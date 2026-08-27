@@ -30,6 +30,7 @@
   --link:      #268bd2;
   --code-fg:   #bf616a;
   --code-bg:   #f9f9f9;
+  --code-text: #333333;
   --nav-bg:    #f8f8f8;
   --nav-fg:    #777777;
   --nav-brand: #333333;
@@ -52,6 +53,7 @@
   --link:      #6cb6f0;
   --code-fg:   #e2848d;
   --code-bg:   #1b2027;
+  --code-text: #c5cad1;
   --nav-bg:    #1b2027;
   --nav-fg:    #9aa3ad;
   --nav-brand: #e8ecf1;
@@ -272,6 +274,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   // word-wrap: break-word;
+  color: var(--code-text);
   background-color: var(--code-bg);
 }
 
