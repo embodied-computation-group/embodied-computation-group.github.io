@@ -8,7 +8,7 @@ header-img: images/post/toolbox-releases-2026/combined-logos.png
 ---
 
 <div class="hero">
-<p><img src="/images/post/toolbox-releases-2026/combined-logos.png" alt="The cardioception and systole logos side by side" /></p>
+<p><img class="on-light" src="/images/post/toolbox-releases-2026/combined-logos.png" alt="The cardioception and systole logos side by side" /></p>
 </div>
 
 Today we are releasing new versions of both of our open-source cardiac interoception toolboxes. [**cardioception 0.7.0**](https://github.com/embodied-computation-group/Cardioception) provides the Heart Rate Discrimination task and the Heartbeat Counting task in PsychoPy. [**systole 0.3.2**](https://github.com/embodied-computation-group/systole) handles the cardiac and respiratory signal processing underneath them.

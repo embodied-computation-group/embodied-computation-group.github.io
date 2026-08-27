@@ -60,6 +60,50 @@ I love those that desire the impossible - Goethe.
     connect-src 'self' https:;
   ">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+
+  <!--
+    Theme. Runs before the stylesheets so a reader who chose a theme does not
+    get a flash of the other one. With no stored choice, nothing is stamped on
+    <html> and the CSS falls back to prefers-color-scheme, i.e. the OS setting.
+  -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {
+        /* storage blocked (private window, site data off): fall through to the OS setting */
+      }
+
+      function effectiveTheme() {
+        var set = document.documentElement.getAttribute('data-theme');
+        if (set) return set;
+        return window.matchMedia &&
+               window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var button = document.getElementById('theme-toggle');
+        if (!button) return;
+
+        function label() {
+          button.setAttribute('aria-label',
+            effectiveTheme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+        label();
+
+        button.addEventListener('click', function () {
+          var next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          label();
+        });
+      });
+    })();
+  </script>
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />

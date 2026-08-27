@@ -2,6 +2,67 @@
 ---
 
 
+/* ---------------------------------------------------------------
+   Colour tokens.
+
+   The light palette is the site's original colours, lifted into
+   custom properties. The dark palette redefines only these tokens,
+   in three places so all three viewer states resolve:
+     :root                              -> light (default)
+     prefers-color-scheme: dark         -> follows the OS, unless the
+                                           reader explicitly chose light
+     [data-theme="dark"]                -> the reader's explicit choice
+   Never set a colour directly inside a media or [data-theme] block:
+   style through the tokens so every state stays consistent.
+   --------------------------------------------------------------- */
+
+:root {
+  --bg:        #ffffff;
+  --surface:   #f9f9f9;
+  --fg:        #515151;
+  --ink:       #333333;
+  --muted:     #555555;
+  --caption:   #838383;
+  --dim:       #aaaaaa;
+  --faint:     #dddddd;
+  --rule:      #eeeeee;
+  --border:    #e5e5e5;
+  --link:      #268bd2;
+  --code-fg:   #bf616a;
+  --code-bg:   #f9f9f9;
+  --nav-bg:    #f8f8f8;
+  --nav-fg:    #777777;
+  --nav-brand: #333333;
+  color-scheme: light;
+}
+
+@mixin dark-tokens {
+  --bg:        #14181d;
+  --surface:   #1b2027;
+  --fg:        #c5cad1;
+  --ink:       #e8ecf1;
+  --muted:     #9aa3ad;
+  --caption:   #8b939d;
+  --dim:       #7c858f;
+  --faint:     #39414b;
+  --rule:      #262c34;
+  --border:    #2c333c;
+  --link:      #6cb6f0;
+  --code-fg:   #e2848d;
+  --code-bg:   #1b2027;
+  --nav-bg:    #1b2027;
+  --nav-fg:    #9aa3ad;
+  --nav-brand: #e8ecf1;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+
+:root[data-theme="dark"] { @include dark-tokens; }
+
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -26,8 +87,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: var(--fg);
+  background-color: var(--bg);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -37,7 +98,7 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: var(--link);
   text-decoration: none;
 
   &:hover,
@@ -52,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-family: "Open Sans", "Source Sans Pro";
   line-height: 1.1;
-  color: #333;
+  color: var(--ink);
   letter-spacing: -.025rem;
 }
 
@@ -150,33 +211,33 @@ ol + h3 {
 
 hr {
   border: 0;
-  border-top: .5px solid #eee;
-  border-bottom: .5px solid #eee;
+  border-top: .5px solid var(--rule);
+  border-bottom: .5px solid var(--rule);
   margin: 1.5rem auto;
 }
 
 strong {
-  color: #333;
+  color: var(--ink);
   font-weight: 600;
 }
 
 abbr {
   font-size: 80%;
   font-weight: bold;
-  color: #555;
+  color: var(--muted);
   text-transform: uppercase;
 }
 
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+  border-bottom: 1px dotted var(--border);
 }
 
 blockquote {
   padding: 0 0 0 1.5rem;
   margin: 0 2rem 1rem 0;
   //color: #999;
-  border-left: .5rem; //solid #e5e5e5
+  border-left: .5rem; //solid var(--border)
 
   p:last-child {
     margin-bottom: 0;
@@ -191,8 +252,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 80%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: var(--code-fg);
+  background-color: var(--code-bg);
   border-radius: 3px;
 }
 
@@ -207,7 +268,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   // word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: var(--code-bg);
 }
 
 pre code {
@@ -263,20 +324,20 @@ table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 70%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border);
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border);
   font-size: 140%;
 }
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: var(--code-bg);
 }
 
 .lead {
@@ -300,7 +361,7 @@ tbody tr:nth-child(odd) th {
     font-weight: 300;
 
     a {
-      color: #333;
+      color: var(--ink);
 
       &:hover,
       &:focus {
@@ -309,7 +370,7 @@ tbody tr:nth-child(odd) th {
     }
 
     span {
-      color: #ddd;
+      color: var(--faint);
     }
 
   }
@@ -321,7 +382,7 @@ tbody tr:nth-child(odd) th {
     text-transform: uppercase;
 
     a {
-      color: #333;
+      color: var(--ink);
 
       &:hover,
       &:focus {
@@ -334,7 +395,7 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2rem;
 
     a {
-      color: #aaa;
+      color: var(--dim);
       font-weight: 300;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
@@ -343,7 +404,7 @@ tbody tr:nth-child(odd) th {
 
       &:hover,
       &:focus {
-        color: #333;
+        color: var(--ink);
         text-decoration: none;
       }
 
@@ -395,7 +456,7 @@ tbody tr:nth-child(odd) th {
   figcaption {
     font-size: .8rem;
     line-height: 1.5;
-    color: #838383;
+    color: var(--caption);
   }
 
   .citation sup {
@@ -425,7 +486,7 @@ tbody tr:nth-child(odd) th {
   .disclaimer {
     margin-top: 2rem;
     font-size: .8rem;
-    color: #838383;
+    color: var(--caption);
   }
 }
 
@@ -434,7 +495,7 @@ tbody tr:nth-child(odd) th {
     margin-bottom: .25rem;
 
     a {
-      color: #333;
+      color: var(--ink);
 
       &:hover,
       &:focus {
@@ -451,7 +512,7 @@ tbody tr:nth-child(odd) th {
 
 .projects-list {
   a {
-    color: #333;
+    color: var(--ink);
   }
 }
 
@@ -550,12 +611,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-post-title {
-  color: black;
+  color: var(--ink);
 }
 
 .list-detail {
   font-size: 15px;
-  color: #838383;
+  color: var(--caption);
 }
 
 .list-item a:hover, .list-post-title:hover .name, .list-post-title .name:hover {
@@ -583,7 +644,7 @@ tbody tr:nth-child(odd) th {
 
 // change font for navbar
 .navbar, .navbar-nav>li>a {
-  background-color: white;
+  background-color: var(--nav-bg);
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -623,4 +684,153 @@ a[href*="type=printable"] {
   &:hover {
     color: #000;
   }
+}
+
+
+/* ---------------------------------------------------------------
+   Dark mode: everything the tokens above cannot reach on their own.
+
+   Bootstrap 3 is loaded from a CDN before this stylesheet, so its
+   navbar, panel and table colours need overriding explicitly. The
+   syntax highlighting block above is a light GitHub theme, so it
+   gets a dark counterpart rather than per-token surgery.
+   --------------------------------------------------------------- */
+
+@mixin dark-chrome {
+
+  /* --- Bootstrap navbar --- */
+  .navbar-default {
+    background-color: var(--nav-bg);
+    border-color: var(--border);
+
+    .navbar-brand,
+    .navbar-brand:hover,
+    .navbar-brand:focus { color: var(--nav-brand); }
+
+    .navbar-nav > li > a { color: var(--nav-fg); }
+
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:focus,
+    .navbar-nav > .active > a,
+    .navbar-nav > .active > a:hover { color: var(--ink); background-color: transparent; }
+
+    .navbar-toggle { border-color: var(--border); }
+    .navbar-toggle:hover,
+    .navbar-toggle:focus { background-color: var(--surface); }
+    .navbar-toggle .icon-bar { background-color: var(--nav-fg); }
+    .navbar-collapse { border-color: var(--border); }
+  }
+
+  /* --- Bootstrap surfaces --- */
+  .panel, .well, .jumbotron, .card {
+    background-color: var(--surface);
+    border-color: var(--border);
+    color: var(--fg);
+  }
+  .table > thead > tr > th,
+  .table > tbody > tr > td { border-color: var(--border); }
+  .table-striped > tbody > tr:nth-of-type(odd) { background-color: var(--surface); }
+  .modal-content, .dropdown-menu {
+    background-color: var(--surface);
+    border-color: var(--border);
+  }
+  hr { border-color: var(--rule); }
+
+  /* --- Images ---
+     Photographs and figures are left alone.
+
+     The lab mark is monochrome line art: black outlines over a white fill
+     on transparency. On a light page the fill vanishes and you read the
+     linework; on a dark page it would read as a solid white blob. Inverting
+     flips the fill to near-black and the linework to white, so it is the
+     same drawing against the dark ground. Only do this to monochrome art -
+     inverting a coloured logo wrecks its hues.                          */
+  .navbar-brand img,
+  img.invert-dark {
+    filter: invert(1);
+  }
+
+  /* Artwork that is neither monochrome nor legible on a dark ground - a
+     coloured lockup carrying dark type, say - can opt into a light plate. */
+  img.on-light {
+    background: #f4f6f8;
+    border-radius: 6px;
+    padding: 10px;
+  }
+
+  /* --- Syntax highlighting: dark counterpart --- */
+  .highlight {
+    background-color: var(--surface);
+
+    .hll { background-color: #2d2a1f; }
+    .c, .cm, .c1, .cd { color: #7f8895; font-style: italic; }
+    .cp, .cs { color: #9aa3ad; font-weight: bold; font-style: italic; }
+    .err { color: #ff8a8a; background-color: #3a2326; }
+    .k, .o, .kc, .kd, .kn, .kp, .kr { color: #e6edf3; font-weight: bold; }
+    .kt { color: #9db8ff; font-weight: bold; }
+    .gd { color: #e8ecf1; background-color: #3a2326; }
+    .gi { color: #e8ecf1; background-color: #1e3325; }
+    .ge { color: #e8ecf1; font-style: italic; }
+    .gr, .gt { color: #ff8a8a; }
+    .gh, .gu { color: #8b939d; }
+    .go { color: #9aa3ad; }
+    .gp { color: #9db8ff; }
+    .m, .mf, .mh, .mi, .mo, .il { color: #6fd7d7; }
+    .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1, .ss { color: #ff9aa8; }
+    .na, .no, .nv, .vc, .vg, .vi { color: #6fd7d7; }
+    .nb { color: #79c0ff; }
+    .nc, .nn { color: #9db8ff; font-weight: bold; }
+    .nd { color: #7fb3b3; font-weight: bold; }
+    .ni { color: #d2a8ff; }
+    .ne, .nf { color: #ff9aa8; font-weight: bold; }
+    .nt { color: #7ee787; }
+    .w { color: #4a525c; }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-chrome; }
+}
+
+:root[data-theme="dark"] { @include dark-chrome; }
+
+
+/* ---------------------------------------------------------------
+   The toggle itself.
+   --------------------------------------------------------------- */
+
+.theme-toggle {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--nav-fg);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 8px 10px;
+
+  &:hover,
+  &:focus { color: var(--ink); border-color: var(--border); }
+  &:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+  .theme-toggle-dark  { display: none; }
+  .theme-toggle-light { display: inline; }
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  .theme-toggle-dark  { display: inline; }
+  .theme-toggle-light { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle {
+    .theme-toggle-dark  { display: inline; }
+    .theme-toggle-light { display: none; }
+  }
+}
+
+.navbar-nav > li > .theme-toggle { margin-top: 8px; }
+
+@media (max-width: 767px) {
+  .navbar-nav > li > .theme-toggle { margin: 0 0 8px 15px; }
 }
