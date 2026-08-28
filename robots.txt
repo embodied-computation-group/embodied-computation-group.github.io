@@ -1,0 +1,10 @@
+# Served at https://www.the-ecg.org/robots.txt
+#
+# Crawlers only read robots.txt from the domain root, so the Cardioception
+# sitemap is declared here rather than alongside the documentation it covers.
+# No front matter, so Jekyll copies this file through unchanged.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.the-ecg.org/Cardioception/sitemap.xml
