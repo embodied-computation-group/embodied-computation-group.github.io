@@ -45,9 +45,7 @@ I love those that desire the impossible - Goethe.
       https://www.googletagmanager.com 
       https://www.google-analytics.com 
       https://platform.twitter.com 
-      https://disqus-r9qnjjf0cf.disqus.com 
-      https://*.disqus.com 
-      https://*.disquscdn.com;
+      https://giscus.app;
     style-src 'self' 'unsafe-inline' 
       https://cdn.jsdelivr.net 
       https://fonts.googleapis.com 
@@ -56,7 +54,7 @@ I love those that desire the impossible - Goethe.
       https://fonts.gstatic.com 
       https://cdnjs.cloudflare.com;
     img-src 'self' data: https: http:;
-    frame-src https://disqus.com https://*.disqus.com https://platform.twitter.com;
+    frame-src https://giscus.app https://platform.twitter.com;
     connect-src 'self' https:;
   ">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
@@ -154,34 +152,11 @@ I love those that desire the impossible - Goethe.
 
 </head>
 
-<script>
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-
-s.src = '//disqus-r9qnjjf0cf.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
 <body id="page-top" style="padding-top: 8em;">
 
     {% include navbar.html %}
     {{ content }}
 
-    <script id="dsq-count-scr" src="https://disqus-r9qnjjf0cf.disqus.com/count.js" async></script>
     <!-- jQuery already loaded in head -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <!-- Legacy Google Analytics removed - using gtag.js below -->

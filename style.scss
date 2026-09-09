@@ -495,6 +495,34 @@ tbody tr:nth-child(odd) th {
     font-size: .8rem;
     color: var(--caption);
   }
+
+  /* Comments (giscus). The thread itself lives in an iframe that carries its
+     own theme, so there is nothing to style inside it - only the heading, the
+     note above it, and the rule that separates the whole thing from the post. */
+  .comments {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .comments-note {
+      font-size: .8rem;
+      color: var(--caption);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Reserve height while the lazy iframe loads, so the footer does not jump. */
+    .giscus,
+    .giscus-frame {
+      width: 100%;
+      min-height: 10rem;
+      border: 0;
+      color-scheme: normal;
+    }
+  }
 }
 
 .list {

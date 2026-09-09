@@ -1,0 +1,79 @@
+<!--
+  Comments, backed by GitHub Discussions via giscus.
+
+  One discussion per post, matched on the post's pathname, created lazily in the
+  Announcements category the first time somebody comments. Announcements is
+  deliberate: only maintainers can open threads there, so giscus owns thread
+  creation and nobody can pre-empt a post with a stray discussion.
+
+  giscus renders in an iframe and cannot read our stylesheet, so the theme is
+  passed in and then kept in sync by postMessage when the navbar toggle fires.
+-->
+<section class="comments">
+  <h3>Comments</h3>
+  <p class="comments-note">
+    Comments are threads in this site's
+    <a href="https://github.com/embodied-computation-group/embodied-computation-group.github.io/discussions"
+       target="_blank" rel="noopener noreferrer">GitHub Discussions</a>.
+    Posting requires a GitHub account.
+  </p>
+
+  <script src="https://giscus.app/client.js"
+          data-repo="embodied-computation-group/embodied-computation-group.github.io"
+          data-repo-id="R_kgDOJcCcYw"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOJcCcY84DFNpC"
+          data-mapping="pathname"
+          data-strict="1"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+
+  <noscript>
+    <p>Enable JavaScript to load comments, or read and post them
+    <a href="https://github.com/embodied-computation-group/embodied-computation-group.github.io/discussions">
+    on GitHub Discussions</a>.</p>
+  </noscript>
+</section>
+
+<script>
+  /*
+    Keep giscus on the same theme as the page.
+
+    The embed starts on preferred_color_scheme, which is right for a reader who
+    has never touched the toggle. What it cannot see is an explicit choice: that
+    lives in a data-theme attribute on our <html>, outside the iframe. So when a
+    choice exists we push the matching built-in theme in, and push again on every
+    flip of the toggle. Clearing the choice hands control back to the OS setting.
+  */
+  (function () {
+    var ORIGIN = 'https://giscus.app';
+
+    function sync() {
+      var frame = document.querySelector('iframe.giscus-frame');
+      if (!frame || !frame.contentWindow) return;
+      var set = document.documentElement.getAttribute('data-theme');
+      var theme = (set === 'dark' || set === 'light') ? set : 'preferred_color_scheme';
+      frame.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: theme } } }, ORIGIN);
+    }
+
+    // The iframe announces itself once loaded; messages sent before that are dropped.
+    window.addEventListener('message', function (event) {
+      if (event.origin !== ORIGIN) return;
+      if (event.data && event.data.giscus && 'discussion' in event.data.giscus) sync();
+    });
+
+    // The toggle rewrites data-theme on <html>; mirror every change into the frame.
+    if (window.MutationObserver) {
+      new MutationObserver(sync).observe(document.documentElement,
+        { attributes: true, attributeFilter: ['data-theme'] });
+    }
+  })();
+</script>
