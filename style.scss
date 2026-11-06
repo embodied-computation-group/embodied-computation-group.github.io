@@ -490,6 +490,21 @@ tbody tr:nth-child(odd) th {
     flex: 1;
   }
 
+  // Author-year reference list (unnumbered), hanging indent.
+  .references .reference {
+    font-size: .8rem;
+    line-height: 1.5;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+    margin-bottom: .6rem;
+  }
+
+  // Keep a citation link from landing under the fixed navbar.
+  .references .reference:target {
+    scroll-margin-top: 5rem;
+    background: var(--border);
+  }
+
   .disclaimer {
     margin-top: 2rem;
     font-size: .8rem;
@@ -713,11 +728,11 @@ tbody tr:nth-child(odd) th {
 // PDF link styling
 a[href$=".pdf"],
 a[href*="type=printable"] {
-  color: #333;
+  color: var(--ink);
   font-weight: 600;
 
   &:hover {
-    color: #000;
+    color: var(--link);
   }
 }
 
