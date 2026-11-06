@@ -4,10 +4,14 @@ description: "Where did the delays in heartbeat discrimination tasks come from? 
 categories: blog
 author: Micah G. Allen
 author_url: /people/micah_allen/
-header-img: images/post/psychometric-history/title-card.png
+header-img: images/post/psychometric-history/hero-clock-heart.jpg
 ---
 
 <p class="wip-note"><em>This is a work in progress, posted here for early feedback. It is a draft historical review, not a finished paper, and I would be grateful for corrections, missing sources and disagreements, in the comments below or by email. A <a href="/documents/psychometric-history-preprint.pdf">PDF version</a> is also available.</em></p>
+
+<div class="hero">
+<p><img src="/images/post/psychometric-history/hero-clock-heart.jpg" alt="A painted anatomical heart with a clock face set into it and a pendulum hanging below, in front of a pencilled ECG trace running across the page" /></p>
+</div>
 
 <h2 id="foreword">Foreword</h2>
 <p><em>This review began with a question I had returned to for years: where did the delays in heartbeat discrimination tasks come from? Reading primary texts and following references had revealed a much richer debate than contemporary descriptions of the tasks usually convey. I wanted to see whether AI tools could help organize that accumulated material and make its history readable. The result is an experiment in AI-assisted scholarship, guided by my research experience and continuing engagement with the sources. Its value depends on the historical argument and the evidence supporting it; fluent prose is no substitute for either. A brief disclosure at the end describes how the tools were used.</em></p>
